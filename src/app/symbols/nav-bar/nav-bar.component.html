@@ -1,0 +1,21 @@
+<div
+     data-collapse="medium"
+     data-animation="over-right"
+     data-duration="400"
+     data-doc-height="1"
+     id="navbar_id"
+     ng-symbol="nav-bar"
+     class="navigation w-nav">
+
+  <div class="container-5 w-container"> 
+   <nav role="navigation" class="nav-menu-2 w-nav-menu"> 
+    <a class="navigation-link-buttons w-nav-link" routerLink="/" [ngClass]="{'w--current' : nav_selector1==1}" (click)="nav_selector1=1">Home</a> 
+    <a class="navigation-link-buttons w-nav-link" routerLink="/posts_template" [ngClass]="{'w--current' : nav_selector1==2}" (click)="nav_selector1=2">About</a> 
+    <a class="navigation-link-buttons w-nav-link" routerLink="/posts_template" [ngClass]="{'w--current' : nav_selector1==3}" (click)="nav_selector1=3">Contact</a> 
+   </nav> 
+   <div class="menu-button w-nav-button"> 
+    <img src="assets/images/fingerprint_black_192x192.png" width="45" alt="" class="icon-2" srcset=""> 
+   </div> 
+  </div> 
+ </div>
+
