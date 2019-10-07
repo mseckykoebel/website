@@ -3045,6 +3045,7 @@ figcaption {
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
+  cursor: default;
 }
 
 .post-author:hover {
@@ -4050,7 +4051,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 0px;
+  margin: 5px 20px 20px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;

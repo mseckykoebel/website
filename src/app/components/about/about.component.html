@@ -1,282 +1,148 @@
-<div data-collapse="medium" data-animation="default" data-duration="400" class="navigation w-nav"> 
-  <div class="navigation-container"> 
-   <a class="logo w-inline-block" routerLink="/"><img src="assets/images/noiceland_logo.svg" alt="" class="image-logo" srcset=""></a> 
-   <nav role="navigation" class="nav-menu w-nav-menu"> 
-    <a class="navigation-link w-inline-block" routerLink="/"> 
-     <div class="navigation-link-text">
-       Home 
-     </div> 
-     <div class="navigation-hover"></div> </a> 
-    <a class="navigation-link w-inline-block" routerLink="/latest_posts"> 
-     <div class="navigation-link-text">
-       Latest 
-     </div> 
-     <div class="navigation-hover"></div> </a> 
-    <a class="navigation-link w-inline-block w--current" routerLink="/about"> 
-     <div class="navigation-link-text">
-       About 
-     </div> 
-     <div class="navigation-hover"></div> </a> 
+<div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav"> 
+  <div class="w-container"> 
+   <a class="brand-wrapper w-nav-brand" routerLink="/"> 
+    <div class="logo-text">
+      terminal 
+    </div> </a> 
+   <nav role="navigation" class="nav-menu w-clearfix w-nav-menu"> 
+    <a class="nav-link w-nav-link" routerLink="/" [ngClass]="{'w--current' : nav_selector1==1}" (click)="nav_selector1=1">HOME</a> 
+    <a class="nav-link w-nav-link" routerLink="/pricing" [ngClass]="{'w--current' : nav_selector1==2}" (click)="nav_selector1=2">pricing</a> 
+    <a class="nav-link w-nav-link" routerLink="/services" [ngClass]="{'w--current' : nav_selector1==3}" (click)="nav_selector1=3">services</a> 
+    <a class="nav-link w-nav-link" routerLink="/about" [ngClass]="{'w--current' : nav_selector1==4}" (click)="nav_selector1=4">About</a> 
+    <a class="nav-link w-nav-link" routerLink="/contact" [ngClass]="{'w--current' : nav_selector1==5}" (click)="nav_selector1=5">Contact</a> 
+    <a class="nav-link right w-nav-link" routerLink="/sign_up" [ngClass]="{'w--current' : nav_selector1==6}" (click)="nav_selector1=6">SIGN UP</a> 
    </nav> 
    <div class="menu-button w-nav-button"> 
-    <div class="icon-2 w-icon-nav-menu"></div> 
+    <div class="w-icon-nav-menu"></div> 
    </div> 
   </div> 
  </div> 
- <div class="about-top"> 
-  <div class="container cc-center"> 
-   <div class="text-container"> 
-    <div class="section-title-text">
-      about 
+ <div class="section black"> 
+  <div class="w-container"> 
+   <div class="title"> 
+    <h1>3 guys changing time tracking</h1> 
+    <div class="subtitle">
+      What started as a dorm room project exploded into an internet sensation! 
     </div> 
-    <h1 class="h1">Clita incorrupte at vix. Nam te molestie iudicabit erroribus odio.</h1> 
    </div> 
-  </div> 
- </div> 
- <div class="header"></div> 
- <div class="about-blog"> 
-  <div class="container cc-center"> 
-   <div class="text-container"> 
-    <div class="section-title-big">
-      this is noiceland. 
+   <div class="w-row"> 
+    <div class="w-col w-col-6"> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p> 
+     <p>Amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus.</p> 
     </div> 
-    <p class="paragraph">Vim et dolore eligendi voluptua, qui id unum quas omittantur, at sed justo tation eligendi. Assum accommodare an mei. Sonet propriae partiendo ad vix, ex vis epicuri constituto incorrupte. Ut vim liber recteque eloquentiam, qui te exerci forensibus. Eu pri ullum meliore tincidunt, an ius aeque paulo saperet, eum modus tation an.</p> 
-    <p class="paragraph">Vix mandamus deseruisse voluptatibus in. Ei pri epicurei indoctum. Aeterno oportere at his. Nam prompta recteque dissentias id. Aperiam atomorum iudicabit sed id, malis dicit pericula at vis.</p> 
-    <p class="paragraph">At sea scripta nostrud facilisis, his at nihil ubique sententiae, aeque menandri urbanitas eu quo. Fastidii qualisque cum id. Tollit convenire adversarium duo te. Te vim dictas virtute iudicabit, tibique omittam cum ut, clita decore lucilius nec ei. Sit facer docendi ex, laoreet deserunt pro eu, eum putent virtute vivendum te. Purto interpretaris signiferumque te eam, at mel saperet voluptua.</p> 
-    <a href="#contact" class="link-block w-inline-block"> 
-     <div>
-       Contact us 
-     </div> </a> 
-   </div> 
-  </div> 
- </div> 
- <div class="separator"> 
-  <div class="separator-container"> 
-   <div class="line-color"></div> 
-  </div> 
- </div> 
- <div class="team"> 
-  <div class="container"> 
-   <div class="section-title-big">
-     our team 
-   </div> 
-   <div class="posts-wrapper"> 
-    <div class="collection-list-wrapper-7 w-dyn-list"> 
-     <div class="w-dyn-items w-row"> 
-      <div class="team-collection-item w-dyn-item w-col w-col-3"> 
-       <div class="team-image"> 
-        <img src="" alt="" srcset=""> 
-       </div> 
-       <div class="team-member-info"> 
-        <div class="team-member-name"></div> 
-        <div class="team-member-role"></div> 
-       </div> 
-      </div> 
-     </div> 
-     <div class="w-dyn-empty"> 
-      <div>
-        No items found. 
-      </div> 
-     </div> 
+    <div class="w-col w-col-6"> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p> 
+     <p>Ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p> 
     </div> 
    </div> 
   </div> 
  </div> 
- <div class="separator"> 
-  <div class="separator-container"> 
-   <div class="line-color"></div> 
-  </div> 
- </div> 
-  
-  <div
-     id="contact"
-     class="contact">
-
-  <div class="container"> 
-   <div class="text-container"> 
-    <div class="section-title-big">
-      Wanna get in touch? 
-    </div> 
-    <p class="paragraph cc-contact-text">Vim et dolore eligendi voluptua, qui id unum quas omittantur, at sed justo tation eligendi. Assum accommodare an mei. Sonet propriae partiendo ad vix, ex vis epicuri constituto incorrupte.</p> 
+ <div class="section about-image"></div> 
+ <div class="section darkgrey"> 
+  <div class="w-container"> 
+   <div class="title"> 
+    <h2>The origins</h2> 
    </div> 
-   <div class="contact-wrapper"> 
-    <div class="contact-item-wrapper"> 
-     <div class="contact-item"> 
-      <div class="contact-number"> 
-       <div class="number">
-         1 
-       </div> 
-      </div> 
-      <div class="contact-info-subtitle">
-        ADDRESS 
-      </div> 
-      <div class="contact-info-text">
-        144 N 7th St. #536<br>Brooklyn, NY 11249<br>United States 
-      </div> 
+   <div class="questions-row w-row"> 
+    <div class="w-col w-col-6"> 
+     <div class="question">
+       Where it started 
      </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p> 
+     <div class="question">
+       Attracting users 
+     </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p> 
+     <div class="question">
+       Hiring the 2 guys 
+     </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p> 
+     <div class="question">
+       Time to take over the world 
+     </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p> 
     </div> 
-    <div class="contact-item-wrapper"> 
-     <div class="contact-item"> 
-      <div class="contact-number"> 
-       <div class="number">
-         2 
-       </div> 
-      </div> 
-      <div class="contact-info-subtitle">
-        general INQUIRIES 
-      </div> 
-      <div class="contact-info-text">
-        hello@noiceland.co 
-      </div> 
+    <div class="w-col w-col-6"> 
+     <div class="question">
+       Why time tracking 
      </div> 
-    </div> 
-    <div class="contact-item-wrapper"> 
-     <div class="contact-item"> 
-      <div class="contact-number"> 
-       <div class="number">
-         3 
-       </div> 
-      </div> 
-      <div class="contact-info-subtitle">
-        PRESS inquiries 
-      </div> 
-      <div class="contact-info-text">
-        press@noiceland.co 
-      </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p> 
+     <div class="question">
+       Getting investment 
      </div> 
-    </div> 
-    <div class="contact-item-wrapper"> 
-     <div class="contact-item"> 
-      <div class="contact-number"> 
-       <div class="number">
-         4 
-       </div> 
-      </div> 
-      <div class="contact-info-subtitle">
-        potential contributors 
-      </div> 
-      <div class="contact-info-text">
-        collab@noiceland.co 
-      </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p> 
+     <div class="question">
+       It's party time 
      </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p> 
+     <div class="question">
+       To Mars and beyond 
+     </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p> 
     </div> 
    </div> 
   </div> 
  </div> 
- <div class="footer"> 
-  <div class="container-footer"> 
-   <div class="container"> 
-    <div class="top-section"> 
-     <a class="logo cc-footer w-inline-block" routerLink="/#"><img src="assets/images/logo-white.svg" alt="" class="image-logo" srcset=""></a> 
-     <div class="footer-small-text">
-       © 2018 Noiceland™, all rights reserved 
+ <div class="section sign-up"> 
+  <div class="w-container"> 
+   <div class="w-row"> 
+    <div class="w-col w-col-8"> 
+     <h2 class="sign-up-title">Start tracking your time Today!</h2> 
+     <div class="subtitle pricing">
+       Clocks are so 2000. Get the time tracking of the future. 
      </div> 
     </div> 
+    <div class="sign-up-column w-col w-col-4"> 
+     <a class="button" routerLink="/#">SIGN UP TODAY ❯</a> 
+    </div> 
    </div> 
-   <div class="separator-footer"> 
-    <div class="separator-color footer-line"></div> 
-   </div> 
-   <div class="container"> 
-    <div class="bottom"> 
-     <div class="bottom-1"> 
-      <div data-delay="0" class="dropdown w-dropdown"> 
-       <div class="dropdown-toggle w-dropdown-toggle"> 
-        <div class="icon w-icon-dropdown-toggle"></div> 
-        <div>
-          Category 
-        </div> 
+  </div> 
+ </div> 
+ <div class="section footer"> 
+  <div class="w-container"> 
+   <div class="w-row"> 
+    <div class="footer-column w-col w-col-3"> 
+     <h4>COMPANY</h4> 
+     <ul class="w-list-unstyled"> 
+      <li><a class="footer-link" routerLink="/#">Home</a></li> 
+      <li><a class="footer-link" routerLink="/#">About Terminal</a></li> 
+      <li><a class="footer-link" routerLink="/#">Services</a></li> 
+      <li><a class="footer-link" routerLink="/#">Plans &amp; Pricing</a></li> 
+      <li><a class="footer-link" routerLink="/#">Blog</a></li> 
+     </ul> 
+    </div> 
+    <div class="footer-column w-col w-col-3"> 
+     <h4>get help</h4> 
+     <ul class="w-list-unstyled"> 
+      <li><a class="footer-link" routerLink="/#">Knowledge Base</a></li> 
+      <li><a class="footer-link" routerLink="/#">Frequently Asked Questions</a></li> 
+      <li><a class="footer-link" routerLink="/#">Forum</a></li> 
+      <li><a class="footer-link" routerLink="/#">Contact Us</a></li> 
+     </ul> 
+    </div> 
+    <div class="footer-column w-col w-col-3"> 
+     <h4>Boring Stuff</h4> 
+     <ul class="w-list-unstyled"> 
+      <li><a class="footer-link" routerLink="/#">Privacy Policy</a></li> 
+      <li><a class="footer-link" routerLink="/#">Terms of Service</a></li> 
+     </ul> 
+    </div> 
+    <div class="footer-column w-col w-col-3"> 
+     <div class="w-form"> 
+      <form name="email-form" class="w-clearfix"> 
+       <input type="text" name="email" placeholder="Your email" maxlength="256" class="field-left w-input" required> 
+       <input type="submit" wait="Wait..." value="OK" class="button form w-button"> 
+       <div class="no-spam">
+         We send about 2 emails a month 
        </div> 
-       <nav class="dropdown-list w-dropdown-list"> 
-        <div class="w-dyn-list"> 
-         <div class="w-dyn-items"> 
-          <div class="dropdown-link w-dyn-item"> 
-           <a class="dropdown-link-text" routerLink="/#"></a> 
-          </div> 
-         </div> 
-         <div class="w-dyn-empty"> 
-          <div>
-            No items found. 
-          </div> 
-         </div> 
-        </div> 
-       </nav> 
-      </div> 
-      <div class="footer-categories"> 
-       <div class="footer-title-text">
-         Categories 
-       </div> 
-       <div class="footer-links-container cc-categories"> 
-        <div class="w-dyn-list"> 
-         <div class="collection-list w-dyn-items"> 
-          <div class="footer-collection-item w-dyn-item"> 
-           <a class="link-footer" routerLink="/#"></a> 
-          </div> 
-         </div> 
-         <div class="w-dyn-empty"> 
-          <div>
-            No items found. 
-          </div> 
-         </div> 
-        </div> 
-       </div> 
-      </div> 
-      <div class="footer-newsletter"> 
-       <div class="footer-title-text">
-         Subscribe to newsletter 
-       </div> 
-       <div class="form-block w-form"> 
-  
-  <form
-     id="email-form"
-     name="email-form"
-     class="form">
-
-  <input
-     type="email"
-     class="text-field w-input"
-     maxlength="256"
-     name="Email-3"
-     placeholder="Email address"
-     id="Email-3"
-     required>
-
-         <input type="submit" value="Send" class="submit-button w-button"> 
-        </form> 
-       </div> 
-      </div> 
+      </form> 
      </div> 
-     <div class="bottom-2"> 
-      <div class="footer-links-container"> 
-       <div class="footer-links"> 
-        <div class="footer-title-text">
-          Information 
-        </div> 
-        <div class="footer-links-inner"> 
-         <a class="nav-link white w--current" routerLink="/about">about</a> 
-         <a href="http://blog-b132a3.webflow.io/about#contact" class="nav-link white">contact</a> 
-         <a class="nav-link white" routerLink="/#">terms</a> 
-        </div> 
-       </div> 
-       <div class="footer-links"> 
-        <div class="footer-title-text">
-          follow us 
-        </div> 
-        <div class="footer-links-inner"> 
-         <a class="nav-link white" routerLink="/#">instagram</a> 
-         <a class="nav-link white" routerLink="/#">facebook</a> 
-         <a class="nav-link white" routerLink="/#">twitter</a> 
-        </div> 
-       </div> 
-       <div class="footer-links"> 
-        <div class="footer-title-text">
-          Template 
-        </div> 
-        <div class="footer-links-inner"> 
-         <a class="nav-link white" routerLink="/image_license_info">Image License Info</a> 
-         <a href="https://webflow.com/" class="nav-link white">Powered by Webflow</a> 
-        </div> 
-       </div> 
-      </div> 
+     <div> 
+      <a href="http://www.facebook.com/webflow" class="social-link w-inline-block"><img src="assets/images/twitter-icon.svg" alt="" srcset=""></a> 
+      <a href="http://www.facebook.com/webflow" class="social-link w-inline-block"><img src="assets/images/facebook-icon.svg" alt="" srcset=""></a> 
+     </div> 
+     <div class="logo-text footer">
+       terminal 
      </div> 
     </div> 
    </div> 

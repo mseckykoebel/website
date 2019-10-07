@@ -9,6 +9,7 @@ declare const Webflow: any;
 })
 export class NavBarComponent implements OnInit, OnDestroy {
 
+  // tslint:disable-next-line:variable-name
   nav_selector1 = 1;
 
   constructor() { }

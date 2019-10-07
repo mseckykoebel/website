@@ -7,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  nav_selector1 = 1;
+
   constructor() { }
 
   ngOnInit() {
-
   }
 
 }
+
