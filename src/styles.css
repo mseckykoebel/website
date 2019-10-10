@@ -3870,6 +3870,7 @@ figcaption {
 
 .home-image-column {
   margin-top: 75px;
+  padding-right: 0px;
 }
 
 .home-info-column {
@@ -3878,6 +3879,7 @@ figcaption {
 
 .image-3 {
   max-width: 90%;
+  margin-right: 0px;
   padding-right: 0px;
   opacity: 1;
   cursor: pointer;
@@ -4649,6 +4651,9 @@ figcaption {
   .nav-link.white {
     margin-right: 0px;
   }
+  .paragraph {
+    position: static;
+  }
   .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -4777,6 +4782,9 @@ figcaption {
   }
   .title-section.cc-detail {
     padding-top: 120px;
+  }
+  .post-content-wrapper {
+    position: static;
   }
   .author-image-wrapper {
     position: static;
