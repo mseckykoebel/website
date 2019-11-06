@@ -3207,10 +3207,12 @@ var sessionStopped = function sessionStopped() {
 exports.sessionStopped = sessionStopped;
 
 var previewRequested = function previewRequested(_ref2) {
-  var rawData = _ref2.rawData;
+  var rawData = _ref2.rawData,
+      defer = _ref2.defer;
   return {
     type: IX2_PREVIEW_REQUESTED,
     payload: {
+      defer: defer,
       rawData: rawData
     }
   };
@@ -6307,13 +6309,19 @@ function observeOneRenderTick(store, onTick) {
 }
 
 function handlePreviewRequest(_ref7, store) {
-  var rawData = _ref7.rawData;
-  startEngine({
-    store: store,
-    rawData: rawData,
-    allowEvents: true
-  });
-  dispatchPageUpdateEvent();
+  var rawData = _ref7.rawData,
+      defer = _ref7.defer;
+
+  var start = function start() {
+    startEngine({
+      store: store,
+      rawData: rawData,
+      allowEvents: true
+    });
+    dispatchPageUpdateEvent();
+  };
+
+  defer ? setTimeout(start, 0) : start();
 }
 
 function dispatchPageUpdateEvent() {
@@ -14802,7 +14810,7 @@ var baseActionGroupOptions = {
 var baseActivityActionGroupOptions = (0, _objectSpread2["default"])({}, baseActionGroupOptions, {
   types: [COMPONENT_ACTIVE, COMPONENT_INACTIVE].join(' ')
 });
-var CONTINUOUS_SCROLL_EVENT_TYPES = [{
+var SCROLL_EVENT_TYPES = [{
   target: window,
   types: 'resize orientationchange',
   throttle: true
@@ -14811,14 +14819,9 @@ var CONTINUOUS_SCROLL_EVENT_TYPES = [{
   types: 'scroll wheel readystatechange IX2_PAGE_UPDATE',
   throttle: true
 }];
-var TRIGGERED_SCROLL_EVENT_TYPES = [{
-  target: document,
-  types: 'scroll wheel',
-  throttle: true
-}];
 var MOUSE_OVER_OUT_TYPES = 'mouseover mouseout';
 var baseScrollActionGroupOptions = {
-  types: TRIGGERED_SCROLL_EVENT_TYPES
+  types: SCROLL_EVENT_TYPES
 };
 var AUTO_STOP_DISABLED_EVENTS = {
   PAGE_START: PAGE_START,
@@ -15230,7 +15233,7 @@ var _default = (_default2 = {}, (0, _defineProperty2["default"])(_default2, SLID
     };
   }
 }), (0, _defineProperty2["default"])(_default2, PAGE_SCROLL, {
-  types: CONTINUOUS_SCROLL_EVENT_TYPES,
+  types: SCROLL_EVENT_TYPES,
   handler: function handler(_ref9) {
     var store = _ref9.store,
         eventConfig = _ref9.eventConfig;
@@ -15247,7 +15250,7 @@ var _default = (_default2 = {}, (0, _defineProperty2["default"])(_default2, SLID
     store.dispatch((0, _IX2EngineActions.parameterChanged)(continuousParameterGroupId, value));
   }
 }), (0, _defineProperty2["default"])(_default2, SCROLLING_IN_VIEW, {
-  types: CONTINUOUS_SCROLL_EVENT_TYPES,
+  types: SCROLL_EVENT_TYPES,
   handler: function handler(_ref10) {
     var element = _ref10.element,
         store = _ref10.store,

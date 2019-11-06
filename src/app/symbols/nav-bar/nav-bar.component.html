@@ -13,6 +13,19 @@
     <a class="navigation-link-buttons w-nav-link" routerLink="/blog_posts_adaptive_learning" [ngClass]="{'w--current' : nav_selector1==2}" (click)="nav_selector1=2">Part 1</a> 
     <a class="navigation-link-buttons w-nav-link" routerLink="/blog_posts_adaptive_learning_the_data" [ngClass]="{'w--current' : nav_selector1==3}" (click)="nav_selector1=3">Part 2</a> 
     <a class="navigation-link-buttons w-nav-link" routerLink="/blog_posts_adaptive_learning_the_good_and_the_conclusion" [ngClass]="{'w--current' : nav_selector1==4}" (click)="nav_selector1=4">Part 3</a> 
+    <div data-delay="0" data-hover="1" class="navigation-link-buttons w-dropdown"> 
+     <div class="w-dropdown-toggle"> 
+      <div class="w-icon-dropdown-toggle"></div> 
+      <div>
+        Dropdown 
+      </div> 
+     </div> 
+     <nav class="dropdown-list-2 w-dropdown-list"> 
+      <a class="navigation-link-buttons w-dropdown-link" routerLink="/#">Intentional Design</a> 
+      <a class="navigation-link-buttons w-dropdown-link" routerLink="/#">Nature vs. Nurture</a> 
+      <a class="navigation-link-buttons w-dropdown-link" routerLink="/#">The Problem with Logical Thinking</a> 
+     </nav> 
+    </div> 
    </nav> 
    <div class="menu-button w-nav-button"> 
     <img src="assets/images/fingerprint_black_192x192.png" width="45" alt="" class="icon-2" srcset=""> 
