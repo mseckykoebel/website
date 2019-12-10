@@ -17,6 +17,9 @@ import { DetailTagsComponent } from './components/detail_tags/detail_tags.compon
 import { DetailTeamMembersComponent } from './components/detail_team-members/detail_team-members.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavBarComponent } from './symbols/nav-bar/nav-bar.component';
+// tslint:disable-next-line:max-line-length
+import { TheProblemWithLogicalThinkingComponent } from './components/blog-posts/the-problem-with-logical-thinking/the-problem-with-logical-thinking.component';
+import { TheRebelsFindingYourValuesOrForgingYourOwnComponent } from './components/blog-posts/the-rebels-finding-your-values-or-forging-your-own/the-rebels-finding-your-values-or-forging-your-own.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,8 @@ import { NavBarComponent } from './symbols/nav-bar/nav-bar.component';
     DetailTeamMembersComponent,
     HomeComponent,
     NavBarComponent,
+    TheProblemWithLogicalThinkingComponent,
+    TheRebelsFindingYourValuesOrForgingYourOwnComponent
   ],
   imports: [
     AppRoutingModule,
