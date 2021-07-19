@@ -27,6 +27,8 @@
 
 .borderCircle {
   border-radius: 9999px;
+  height: 108px;
+  max-width: 100vw;
 }
 
 .colorInherit {
