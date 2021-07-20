@@ -16,20 +16,20 @@ export default function Home({ allPostsData }) {
         <p>
           CS, AI at{" "}
           <Link href="https://northwestern.edu">
-            <a target="_blank">Northwestern</a>
+            <a target="_blank" rel="noreferrer">Northwestern</a>
           </Link>
           . Founder of{" "}
           <Link href="https://raiso.org">
-            <a target="_blank">RAISO</a>
+            <a target="_blank" rel="noreferrer">RAISO</a>
           </Link>
           , an AI organization focused on responsibility and education. Software
           engineering intern at{" "}
           <Link href="https://www.automatemedical.com/">
-            <a target="_blank">Automate medical</a>
+            <a target="_blank" rel="noreferrer">Automate medical</a>
           </Link>
           , an{" "}
           <Link href="http://www.apolloprojects.com/">
-            <a target="_blank">apollo</a>
+            <a target="_blank" rel="noreferrer">apollo</a>
           </Link>
           -backed startup.
         </p>
