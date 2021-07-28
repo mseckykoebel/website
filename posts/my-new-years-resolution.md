@@ -1,10 +1,10 @@
 ---
-title: "My new years resoluton"
+title: "My new years resoluton (archive)"
 date: "2020-01-17"
 ---
 
 ![Notion%20API%20f1ad4ebbd75542b2b8ebc8acd198e96b/boundary-08.jpg](https://assets.website-files.com/5d5daf6d8ec6a150046c9488/5e224cd40313754ffeb62072_040.JPG)
-*Circa 2010.*
+_Circa 2010._
 
 Already 17 days late, but better late than never.
 
