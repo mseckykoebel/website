@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
 import Date from "../../components/date";
 import utilStyles from "../../styles/utils.module.css";
 import { GetStaticProps, GetStaticPaths } from "next";
+
+import hljs from "highlight.js";
+import javascript from "highlight.js/lib/languages/javascript";
+hljs.registerLanguage("javascript", javascript);
 
 export default function Post({
   postData,
@@ -14,6 +19,9 @@ export default function Post({
     contentHtml: string;
   };
 }) {
+  useEffect(() => {
+    hljs.highlightAll();
+  }, []);
   return (
     <Layout>
       <Head>

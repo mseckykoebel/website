@@ -58,7 +58,8 @@ When I am having my hardest days I think of that moment. It brought an internal 
 
 In some ways, some parts of me are six again, laying in bed, looking up at the night sky. Others are riding the bus on their way to school on a rainy Tuesday morning, head pressed up against the glass. Comfort...stillness...is always with you. Home is always with you. And you can always find it.
 
-Epilogue
+### Epilogue
+
 If there was one part of my life I would give up everything to have exist on film, it would be my walk from the kitchen to my bed. I genuinely do not know how I made it without falling over. I had no memory of it at all.
 
 After that experience, obviously, I was fascinated. It forever changed my view of the brain and its capability to bring back memories.
