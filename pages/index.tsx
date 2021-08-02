@@ -41,6 +41,13 @@ export default function Home({ allPostsData }) {
           </Link>
           -backed startup building healthcare interoperability tools.
         </p>
+        <p>
+          Most of my code can be found{" "}
+          <Link href="https://github.com/mseckykoebel">
+            <a target="_blank">here</a>
+          </Link>
+          .
+        </p>
       </section>
       {/* <section>
         <hr className={`${utilStyles.divider} ${utilStyles.padding1px}`} />
@@ -61,9 +68,15 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      {/*
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Algorithms</h2>
         <p>todo...</p>
+      </section>
+       */}
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Projects</h2>
+        <p>todo</p>
       </section>
     </Layout>
   );
