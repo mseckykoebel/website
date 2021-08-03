@@ -44,7 +44,7 @@ export default function Home({ allPostsData }) {
         <p>
           Most of my code can be found{" "}
           <Link href="https://github.com/mseckykoebel">
-            <a target="_blank">here</a>
+            <a target="_blank" rel="noreferrer">here</a>
           </Link>
           .
         </p>
