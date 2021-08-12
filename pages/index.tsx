@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
           -backed startup building healthcare interoperability tools.
         </p>
         <p>
-          Most of my code can be found{" "}
+          Most of my code and projects can be found{" "}
           <Link href="https://github.com/mseckykoebel">
             <a target="_blank" rel="noreferrer">here</a>
           </Link>
@@ -74,10 +74,6 @@ export default function Home({ allPostsData }) {
         <p>todo...</p>
       </section>
        */}
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Projects</h2>
-        <p>todo</p>
-      </section>
     </Layout>
   );
 }
