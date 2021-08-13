@@ -1,5 +1,5 @@
 ---
-title: "Two values (archive)"
+title: "✌️ Two values (archive)"
 date: "2020-03-15"
 ---
 

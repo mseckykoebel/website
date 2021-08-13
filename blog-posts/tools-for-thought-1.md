@@ -1,5 +1,5 @@
 ---
-title: "Tools for thought 1 (archive)"
+title: "🛠️ Tools for thought 1 (archive)"
 date: "2020-06-01"
 ---
 

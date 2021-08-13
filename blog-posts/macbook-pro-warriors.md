@@ -1,5 +1,5 @@
 ---
-title: "Macbook Pro warriors (archive)"
+title: "🍎 Macbook Pro warriors (archive)"
 date: "2020-02-16"
 ---
 

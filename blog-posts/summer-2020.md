@@ -1,5 +1,5 @@
 ---
-title: "Summer 2020 (archive)"
+title: "🐬 Summer 2020 (archive)"
 date: "2020-07-05"
 ---
 
