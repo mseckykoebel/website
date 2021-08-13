@@ -19,6 +19,12 @@ export default function Layout({
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Mason Secky-Koebel's website" />
+        <script
+          defer
+          data-domain="masonseckykoebel.vercel.app"
+          src="https://plausible.io/js/plausible.js"
+        ></script>
+
         {/*
         <meta
           property="og:image"
