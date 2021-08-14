@@ -44,7 +44,9 @@ export default function Home({ allPostsData }) {
         <p>
           Most of my code and projects can be found{" "}
           <Link href="https://github.com/mseckykoebel">
-            <a target="_blank" rel="noreferrer">here</a>
+            <a target="_blank" rel="noreferrer">
+              here
+            </a>
           </Link>
           .
         </p>
@@ -66,6 +68,28 @@ export default function Home({ allPostsData }) {
               </small>
             </li>
           ))}
+        </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>News</h2>
+        <ul className={utilStyles.list}>
+          <li>
+            <Link href="https://podcasts.apple.com/us/podcast/responsible-ai-raiso-bijal-mehta-mason-secky-koebel/id1539792238?i=1000518434684">
+              <a target="_blank" rel="noreferrer">
+                Responsible AI and RAISO with Bijal Mehta and Mason Secky-Koebel
+                | AI with Alex
+              </a>
+            </Link>
+          </li>
+          <br />
+          <li>
+            <Link href="https://dailynorthwestern.com/2021/04/02/campus/new-student-group-spreads-awareness-of-artificial-intelligence-ethics-big-data-injustices/">
+              <a target="_blank" rel="noreferrer">
+                New student group spreads awareness of artificial intelligence
+                ethics, big data injustices
+              </a>
+            </Link>
+          </li>
         </ul>
       </section>
       {/*
