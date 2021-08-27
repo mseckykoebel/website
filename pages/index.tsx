@@ -11,6 +11,11 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <script
+          defer
+          data-domain="masonseckykoebel.vercel.app"
+          src="https://plausible.io/js/plausible.js"
+        ></script>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
