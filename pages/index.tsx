@@ -79,6 +79,14 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>News</h2>
         <ul className={utilStyles.list}>
           <li>
+            <Link href="https://www.mccormick.northwestern.edu/artificial-intelligence/inside-our-program/stories/2021/raiso-student-group-explores-the-responsibility-and-safety-of-ai.html">
+              <a target="_blank" rel="noreferrer">
+                RAISO Student Group Explores the Responsibility and Safety of AI
+              </a>
+            </Link>
+          </li>
+          <br />
+          <li>
             <Link href="https://podcasts.apple.com/us/podcast/responsible-ai-raiso-bijal-mehta-mason-secky-koebel/id1539792238?i=1000518434684">
               <a target="_blank" rel="noreferrer">
                 Responsible AI and RAISO with Bijal Mehta and Mason Secky-Koebel
