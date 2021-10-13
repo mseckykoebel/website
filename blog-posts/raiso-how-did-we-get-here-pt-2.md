@@ -6,7 +6,7 @@ date: "2021-10-03"
 ![Two halves of the ocean](https://images.unsplash.com/photo-1507880572231-f85401ce76e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2458&q=80)
 _Photo by [Michael Olsen](https://unsplash.com/@mganeolsen) on [Unsplash](https://unsplash.com/s/photos/yin-yang?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
-_I started [RAISO (soon to be called Raiso)](https://raiso.org) last November because I was concerned with the rapid growth of automation, and the future of business models based on extraction, and making commodities out of human behavior_.
+_I started [RAISO](https://raiso.org) last November because I was concerned with the rapid growth of automation, and the future of business models based on extraction, and making commodities out of human behavior_.
 
 I also did it to get some experience as a founder before I left Northwestern. I was in over my head when I founded _Lighthouse_ (something that I'll talk more on later), and knowing that it was flaming out, I wanted a new challenge that could teach me the basics of how to lead a lot of people in a field I am interested in. Also, not having any explicit profit incentive is a small benefit (although I don't think i'll have a career in public interest).
 
@@ -41,7 +41,7 @@ The other program we are trying to start is projects, where technical students g
 
 ## Conclusion
 
-Starting Raiso has been challenging. It's not the same as starting a statup, and in some ways, starting from zero with a student organization is harder than starting from zero with a startup because it's inherently run by volunteers. We don't have social proof, and getting it comes from existing from a long time, due to no real growth incentives. Thus, recruiting, rate-of-stay, and commitment tend to be near the "less than ideal" end of the spectrum. 
+Starting Raiso has been challenging. It's not the same as starting a statup, and in some ways, starting from zero with a student organization is harder than starting from zero with a startup because it's inherently run by volunteers. We don't have social proof, and getting it comes from existing for a long time, due to no real growth incentives. Thus, recruiting, rate-of-stay, and commitment tend to be near the "less than ideal" end of the spectrum. 
 
 But, my opinion is that with Raiso, things have been _well_ above average in this department, with great early members and lots of good early feedback. The real challenge for me now is to assure that the organization continues after I leave. To do that, I've needed to learn how to delegate - which is harder than it seems. 
 
