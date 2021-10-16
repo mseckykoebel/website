@@ -13,6 +13,6 @@ updates:
       interval: "weekly"
       day: "monday"
       time: "10:00"
-      timezone: "America/New York"
+      timezone: "America/East"
     labels: 
       - "dependencies"
