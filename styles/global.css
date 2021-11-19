@@ -33,3 +33,11 @@ img + em {
   align-items: center;
   margin: 0.5rem auto 1rem;
 }
+
+code {
+  color: rgb(255, 110, 110);
+  background-color: rgb(255, 247, 247);
+  border-radius: 1px;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
