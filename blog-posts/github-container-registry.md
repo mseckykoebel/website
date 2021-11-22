@@ -5,7 +5,7 @@ date: "2021-11-19"
 
 ## Background
 
-I am relatively new to docker. However, this post less about what docker is, and more a walkthrough containing my notes on how to host docker images on the Github container registry (GHCR), and then push those images to github packages.
+I am relatively new to docker. However, this post is less about what docker is, and more a walkthrough containing my notes on how to host docker images on the Github container registry (GHCR), and then push those images to GitHub packages.
 
 Like the docker registry, the GitHub container registry is a repository for container images made through a containerization platform like Docker. In a nutshell, instead of deploying images to docker's container registry docker hub, in this walkthrough, we'll be using the GitHub container registry, which can be found at [ghcr.io](https://ghcr.io). I am making this post because, although lots of these steps are already documented online, I still ran into some roadblocks doing this myself, either through poor documentation or no documentation at all.
 
@@ -20,19 +20,19 @@ There are a few basic pre-requisites for doing this, including but not limited t
 
 ## Setting up a personal access token
 
-From here, the first thing you need to do is set up a Github PAT, otherwise known as a personal access token. PATs are currently the best supported way to authenticate with github on your local machine (previously you had to use your email and password). Because the GHCR is a GitHub product, you're going to need this to log into the GHCR with it.
+From here, the first thing you need to do is set up a Github PAT, otherwise known as a personal access token. PATs are currently the best-supported way to authenticate with GitHub on your local machine (previously you had to use your email and password). Because the GHCR is a GitHub product, you're going to need this to log into the GHCR with it.
 
 There are some good instructions on how to do this here. In the scopes section, select `read:packages`, `write:packages`, and `delete:packages` options. There are other scopes you can select that probably wouldn't affect accomplishing the tasks in this walkthrough, but those are the required scopes.
 
 ## Logging into the container registry
 
-The next step involves signing into the container registry service. Enter this command in a fresh terminal:
+The next step involves signing in to the container registry service. Enter this command in a fresh terminal:
 
 `docker login -u <GITHUB-USERNAME> -p <GITHUB-PAT-YOU-JUST-MADE> ghcr.io`
 
 There are a few variations of this online, including some with the echo command in front of it, which is strange because all this does is display the text of whatever argument the command takes.
 
-There were also variations that included the `--password-stdin` flag instead of the `-p` flag. The only difference in using the `--password-stdin` flag is that you'd need to enter your PAT token manually instead of in-line in the command. The method I use with the `-p` flag is more straightforward, and also avoids a potential pitfall of not being able to enter a PAT, such as in a GitHub action.
+Some variations included the `--password-stdin` flag instead of the `-p` flag. The only difference in using the `--password-stdin` flag is that you'd need to enter your PAT token manually instead of in-line in the command. The method I use with the `-p` flag is more straightforward and also avoids a potential pitfall of not being able to enter a PAT, such as in a GitHub action.
 
 Nevertheless, this should be all you need to get to the `login successful` screen.
 
@@ -46,7 +46,7 @@ Running the command `docker images` should give you a list of all of the images 
 
 `docker image tag project_1:latest mason/my-awesome-app:latest`
 
-The `tag` command is used to give a version to the image ('latest' is pretty common, but it can be something like `v1`). Actually, if I wanted to call it `v1` instead of `latest`, I'd say:
+The `tag` command is used to give a version to the image ('latest' is pretty common, but it can be something like `v1`). If I *did* want to call it `v1` instead of `latest`, I'd say:
 
 `docker image tag project_1:latest mason/my-awesome-app:v1`
 
@@ -70,7 +70,7 @@ From here, you should be able to connect your GitHub repository, which should po
 
 Some other things I learned going through this process:
 
-- Customizing the package page itself is very limited - it's limited to the GitHub repository the package is inside of. For this reason, it is not recommended that you do this if you intend to publish more than one package via a monorepo. For example, if you have a demo and an api package that you want to deploy, and they're both in the same repository, GitHub packages will show the *same* information for both, as they are both connected to the same repo. 
-- There are ways to automate this process via github actions, but all of the examples online don't have great documentation to do this. I'll most likely follow-up with another separate post that goes into further detail on this.
+- Customizing the package page itself is very limited - it's limited to the GitHub repository the package is inside of. For this reason, it is not recommended that you do this if you intend to publish more than one package via a monorepo. For example, if you have a demo and an API package that you want to deploy, and they're both in the same repository, GitHub packages will show the *same* information for both, as they are both connected to the same repo.
+- There are ways to automate this process via GitHub actions, but all of the examples online don't have great documentation to do this. I'll most likely follow up with another separate post that goes into further detail on this.
 
 Thanks for reading!
