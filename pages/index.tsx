@@ -31,8 +31,8 @@ export default function Home({ allPostsData }) {
               RAISO
             </a>
           </Link>
-          , an AI organization focused on safety and education. Software
-          engineering intern at{" "}
+          , an AI organization focused on safety and education. Former intern and incoming Software
+          engineer at{" "}
           <Link href="https://www.automatemedical.com/">
             <a target="_blank" rel="noreferrer">
               Automate medical
@@ -44,7 +44,7 @@ export default function Home({ allPostsData }) {
               apollo
             </a>
           </Link>
-          -backed startup building healthcare interoperability tools.
+          -backed startup building healthcare interoperability APIs.
         </p>
         <p>
           Most of my code and projects can be found{" "}
