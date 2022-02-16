@@ -41,7 +41,7 @@ export default function Layout({
           <>
             <Image
               priority
-              src="/images/mason.png"
+              src="/images/headshot.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}

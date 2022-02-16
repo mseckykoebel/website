@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
           . Founder of{" "}
           <Link href="https://raiso.org">
             <a target="_blank" rel="noreferrer">
-              RAISO
+              Raiso
             </a>
           </Link>
           , an AI organization focused on safety and education. Former intern and incoming Software
