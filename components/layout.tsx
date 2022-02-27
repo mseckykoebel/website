@@ -39,6 +39,7 @@ export default function Layout({
       <header className={styles.header}>
         {home ? (
           <>
+            {/*
             <Image
               priority
               src="/images/headshot.jpg"
@@ -47,7 +48,9 @@ export default function Layout({
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            
+             */}
+            <h1 className={utilStyles.headingMdBold}>{name}</h1>
           </>
         ) : (
           /*This is going to be empty for the time being (maybe something else later) */

@@ -7,7 +7,8 @@
 .header {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* Make this center if you want your name to be in the middle */
+  align-items: left;
 }
 
 .backToHome {

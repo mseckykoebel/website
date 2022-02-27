@@ -13,7 +13,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
         <script
           defer
-          data-domain="masonseckykoebel.vercel.app"
+          data-domain="masonseckykoebel.com"
           src="https://plausible.io/js/plausible.js"
         ></script>
       </Head>
@@ -31,8 +31,8 @@ export default function Home({ allPostsData }) {
               Raiso
             </a>
           </Link>
-          , an AI organization focused on safety and education. Former intern and incoming Software
-          engineer at{" "}
+          , an AI organization focused on safety and education. Former intern
+          and incoming Software engineer at{" "}
           <Link href="https://www.automatemedical.com/">
             <a target="_blank" rel="noreferrer">
               Automate medical
