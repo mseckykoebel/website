@@ -5,6 +5,7 @@ import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import { GetStaticProps } from "next";
+import EmailForm from "../components/email-form";
 
 export default function Home({ allPostsData }) {
   return (
@@ -111,6 +112,10 @@ export default function Home({ allPostsData }) {
         <p>todo...</p>
       </section>
        */}
+      <br />
+      <section>
+        <EmailForm></EmailForm>
+      </section>
     </Layout>
   );
 }
