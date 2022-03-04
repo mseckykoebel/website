@@ -111,11 +111,12 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Algorithms</h2>
         <p>todo...</p>
       </section>
-       */}
+       
       <br />
       <section>
         <EmailForm></EmailForm>
       </section>
+      */}
     </Layout>
   );
 }
