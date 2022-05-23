@@ -12,7 +12,7 @@
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.5.1",
     "next": "^12.1.6",
-    "postcss": "^8.4.13",
+    "postcss": "^8.4.14",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^7.5.0",
     "react": "^18.0.0",
