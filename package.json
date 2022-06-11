@@ -19,7 +19,7 @@
     "react-dom": "^18.1.0",
     "remark": "^13.0.0",
     "remark-html": "^15.0.1",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.1.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.36",
