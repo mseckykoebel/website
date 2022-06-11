@@ -7,8 +7,6 @@ version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/"
-    reviewers:
-      - "flexpa/devs"
     schedule:
       interval: "weekly"
       day: "monday"
@@ -16,3 +14,4 @@ updates:
       timezone: "America/New_York"
     labels: 
       - "dependencies"
+      - "automerge"
