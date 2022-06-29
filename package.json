@@ -11,7 +11,7 @@
     "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.5.1",
-    "next": "^12.1.6",
+    "next": "^12.2.0",
     "postcss": "^8.4.14",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^7.7.2",
