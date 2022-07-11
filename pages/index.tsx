@@ -5,7 +5,6 @@ import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import { GetStaticProps } from "next";
-import EmailForm from "../components/email-form";
 
 export default function Home({ allPostsData }) {
   return (
@@ -20,7 +19,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          CS, AI at{" "}
+          BS in CS from{" "}
           <Link href="https://northwestern.edu">
             <a target="_blank" rel="noreferrer">
               Northwestern
@@ -32,14 +31,20 @@ export default function Home({ allPostsData }) {
               Raiso
             </a>
           </Link>
-          , an AI organization focused on safety and education. Former intern
-          and incoming Software engineer at{" "}
-          <Link href="https://www.automatemedical.com/">
+          , an AI organization focused on safety and education. Former intern #1
+          and founding software engineer at{" "}
+          <Link href="https://www.flexpa.com/">
             <a target="_blank" rel="noreferrer">
-              Automate medical
+              Flexpa
             </a>
           </Link>
           , an{" "}
+          <Link href="https://a16z.com/">
+            <a target="_blank" rel="noreferrer">
+              a16z
+            </a>
+          </Link>
+          {" "}and{" "}
           <Link href="http://www.apolloprojects.com/">
             <a target="_blank" rel="noreferrer">
               apollo
