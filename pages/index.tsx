@@ -6,7 +6,7 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import { GetStaticProps } from "next";
 
-export default function Home({ allPostsData }) {
+const Home = ({ allPostsData }) => {
   return (
     <Layout home>
       <Head>
@@ -43,8 +43,8 @@ export default function Home({ allPostsData }) {
             <a target="_blank" rel="noreferrer">
               a16z
             </a>
-          </Link>
-          {" "}and{" "}
+          </Link>{" "}
+          and{" "}
           <Link href="http://www.apolloprojects.com/">
             <a target="_blank" rel="noreferrer">
               apollo
@@ -124,7 +124,7 @@ export default function Home({ allPostsData }) {
       */}
     </Layout>
   );
-}
+};
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const allPostsData = getSortedPostsData();
@@ -134,3 +134,5 @@ export const getStaticProps: GetStaticProps = async (context) => {
     },
   };
 };
+
+export default Home;
