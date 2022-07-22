@@ -50,7 +50,8 @@ export default function Layout({
             />
             
              */}
-            <h1 className={utilStyles.headingMdBold}>{name}</h1>
+             {/* Comment this out for now, not sure if I want + need this atm */}
+            {/* <h1 className={utilStyles.headingMdBold}>{name}</h1> */}
           </>
         ) : (
           /*This is going to be empty for the time being (maybe something else later) */

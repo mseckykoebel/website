@@ -5,6 +5,7 @@ import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import { GetStaticProps } from "next";
+import { MailIcon } from "@heroicons/react/solid";
 
 const Home = ({ allPostsData }) => {
   return (
@@ -17,22 +18,22 @@ const Home = ({ allPostsData }) => {
           src="https://plausible.io/js/plausible.js"
         ></script>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.marginTopSm}`}>
         <p>
-          BS in CS from{" "}
+          I have a BS in CS from{" "}
           <Link href="https://northwestern.edu">
             <a target="_blank" rel="noreferrer">
               Northwestern
             </a>
           </Link>
-          . Founder of{" "}
+          . I founded{" "}
           <Link href="https://raiso.org">
             <a target="_blank" rel="noreferrer">
               Raiso
             </a>
           </Link>
-          , an AI organization focused on safety and education. Former intern #1
-          and founding software engineer at{" "}
+          , an AI organization focused on safety and education. I'm former
+          intern #1, and a current founding software engineer at{" "}
           <Link href="https://www.flexpa.com/">
             <a target="_blank" rel="noreferrer">
               Flexpa
@@ -52,6 +53,7 @@ const Home = ({ allPostsData }) => {
           </Link>
           -backed startup building healthcare interoperability APIs.
         </p>
+        <br />
         <p>
           Most of my code and projects can be found{" "}
           <Link href="https://github.com/mseckykoebel">
@@ -65,7 +67,7 @@ const Home = ({ allPostsData }) => {
       {/* <section>
         <hr className={`${utilStyles.divider} ${utilStyles.padding1px}`} />
       </section> */}
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.marginTopLg}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -81,9 +83,38 @@ const Home = ({ allPostsData }) => {
           ))}
         </ul>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Be notified</h2>
+        <div>
+          <div className={utilStyles.emailTitleContainer}>
+            <label htmlFor="email" className={utilStyles.emailLabel}>
+              Email (optional)
+            </label>
+          </div>
+          <div className={utilStyles.emailInputContainer}>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
+              placeholder="you@example.com"
+              aria-describedby="email-optional"
+            />
+          </div>
+        </div>
+      </section> */}
+      <section className={`${utilStyles.headingMd} ${utilStyles.marginTopLg}`}>
         <h2 className={utilStyles.headingLg}>News</h2>
         <ul className={utilStyles.list}>
+          <li>
+            <Link href="https://www.axios.com/pro/health-tech-deals/2022/06/16/flexpa-raises-9m-seed-health-data-sharing">
+              <a target="_blank" rel="noreferrer">
+                Flexpa raises $8.5M to build new infrastructure for patient
+                access APIs
+              </a>
+            </Link>
+          </li>
+          <br />
           <li>
             <Link href="https://www.mccormick.northwestern.edu/artificial-intelligence/inside-our-program/stories/2021/raiso-student-group-explores-the-responsibility-and-safety-of-ai.html">
               <a target="_blank" rel="noreferrer">
@@ -116,11 +147,7 @@ const Home = ({ allPostsData }) => {
         <h2 className={utilStyles.headingLg}>Algorithms</h2>
         <p>todo...</p>
       </section>
-       
       <br />
-      <section>
-        <EmailForm></EmailForm>
-      </section>
       */}
     </Layout>
   );
