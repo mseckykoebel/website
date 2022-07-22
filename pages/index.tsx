@@ -53,7 +53,6 @@ const Home = ({ allPostsData }) => {
           </Link>
           -backed startup building healthcare interoperability APIs.
         </p>
-        <br />
         <p>
           Most of my code and projects can be found{" "}
           <Link href="https://github.com/mseckykoebel">
