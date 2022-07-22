@@ -30,10 +30,12 @@ img {
 
 img + em {
   font-size: x-small;
-  display: inline-flexbox;
-  flex-direction: column;
-  align-items: center;
-  margin: 0.5rem auto 1rem;
+  display: block;
+  margin: auto;
+  /* width */
+  margin-top: 10px;
+  max-width: 100%;
+  min-width: 70%;
 }
 
 code {
