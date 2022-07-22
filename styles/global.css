@@ -23,7 +23,9 @@ a:hover {
 
 img {
   max-width: 100%;
+  min-width: 70%;
   display: block;
+  margin: auto;
 }
 
 img + em {
