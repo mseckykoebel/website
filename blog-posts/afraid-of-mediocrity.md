@@ -3,8 +3,8 @@ title: "🦡 Making bad things"
 date: "2022-01-27"
 ---
 
-![A staircase made of wood going up a hill in a sunny forrest](https://images.unsplash.com/photo-1621461526336-cfe08596d398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80)
-_Via Unsplash_
+![An AI generated image of a bunch of flowers](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8a22940-463e-4131-8a9c-6c9cf5c1374c/Hotpot_%281%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220724%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220724T203641Z&X-Amz-Expires=86400&X-Amz-Signature=fb1ad2f8530a058fe7c08004dc1c7a3fa0fc9b97ec026fbf0463d3b709c6a2b9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Hotpot%2520%281%29.png%22&x-id=GetObject)
+_"Initially, you're not proud of this great thing you've created"_
 
 I have a tendency to leave some things unfinished.
 
