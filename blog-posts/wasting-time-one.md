@@ -3,8 +3,8 @@ title: "⏲️ Wasting time pt. 1/n"
 date: "2022-05-30"
 ---
 
-![Image of me when I was young somewhere in PA](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b769ef36-eb6e-46ad-ac73-084876113fd3/wasting_time_one.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220722%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220722T215256Z&X-Amz-Expires=86400&X-Amz-Signature=361a2869d2fe3604b11645a578b10fa39124b8af06e0fd0b36ad0fb088d8485c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22wasting_time_one.png%22&x-id=GetObject)
-_Somewhere in PA_
+![AI generated image of someone wasting time](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/aa47923a-b6b2-4a19-aebc-a051e1f0d6c4/Hotpot.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220724%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220724T202528Z&X-Amz-Expires=86400&X-Amz-Signature=464820ebe250b1226a27f2f53621fad551bc529153639ca2472c2ecc34d6b6c5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Hotpot.png%22&x-id=GetObject)
+_"Someone wasting time"_
 
 When I started college, I noticed I had an issue - whenever I didicated myself to something, I would frequently tell myself that I was wasting my time.
 
