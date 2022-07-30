@@ -3,7 +3,7 @@ title: "⛳ Depending on breathing"
 date: "2021-11-16"
 ---
 
-![AI generated image of yellow and blue brush strokes](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8524917e-b572-4cdf-ab8b-cc8d3183a4a6/Hotpot_%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220724%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220724T210524Z&X-Amz-Expires=86400&X-Amz-Signature=50af34be22baadc10ce106bca7ef21e91e99782f3e699070caba783bed7a4578&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Hotpot%2520%282%29.png%22&x-id=GetObject)
+![AI generated image of yellow and blue brush strokes](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8524917e-b572-4cdf-ab8b-cc8d3183a4a6/Hotpot_%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220730%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220730T210015Z&X-Amz-Expires=86400&X-Amz-Signature=53ec5c436f32a3603b8b855469f8705cbecab28e2511c572cd2ffc94cb891663&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Hotpot%2520%282%29.png%22&x-id=GetObject)
 _"I can't focus without you_
 
 I get...meta...really easily - I think a *lot*, to the point where if left unchecked I lose a lot of time in the day. This was more of an issue when I was a kid - I'd spend hours of the day walking aimlessly around my house, for example. Other times I would walk back and fourth between the same room - something I still do, to a lesser extent.
