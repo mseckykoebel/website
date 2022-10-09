@@ -20,13 +20,13 @@ const Home = ({ allPostsData }) => {
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.marginTopSm}`}>
         <p>
-          I have a BS in CS from{" "}
+          I graduated from{" "}
           <Link href="https://northwestern.edu">
             <a target="_blank" rel="noreferrer">
               Northwestern
             </a>
           </Link>
-          . I founded{" "}
+          . While there, I founded{" "}
           <Link href="https://raiso.org">
             <a target="_blank" rel="noreferrer">
               Raiso
@@ -51,7 +51,14 @@ const Home = ({ allPostsData }) => {
               apollo
             </a>
           </Link>
-          -backed startup building healthcare interoperability APIs.
+          -backed startup building plaid for healthcare claims data. We were
+          recently named one of the most{" "}
+          <Link href="https://www.businessinsider.com/21-most-promising-health-tech-startups-2022-according-to-vcs-2022-8/">
+            <a target="_blank" rel="noreferrer">
+              promising healthcare startups
+            </a>
+          </Link>
+          .
         </p>
         <p>
           Most of my code and projects can be found{" "}

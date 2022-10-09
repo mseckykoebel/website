@@ -6,9 +6,33 @@ import Date from "../../components/date";
 import utilStyles from "../../styles/utils.module.css";
 import { GetStaticProps, GetStaticPaths } from "next";
 
+import Image from "next/image";
+
+import wasting_time from "../../public/images/wasting_time.png";
+import twenty_percent_problems from "../../public/images/twenty_percent_problems.jpeg";
+import pedalcell from "../../public/images/pedalcell.jpeg";
+import making_bad_things from "../../public/images/making_bad_things.jpeg";
+import github_registry from "../../public/images/github_registry.jpeg";
+import breathing from "../../public/images/breathing.png";
+import play_the_game from "../../public/images/play_the_game.jpg";
+
 import hljs from "highlight.js";
 import javascript from "highlight.js/lib/languages/javascript";
+
 hljs.registerLanguage("javascript", javascript);
+
+const getImage = (imageUrl: string) => {
+  const images = [
+    wasting_time,
+    twenty_percent_problems,
+    pedalcell,
+    making_bad_things,
+    github_registry,
+    breathing,
+    play_the_game,
+  ];
+  return images.filter((image) => image.src.includes(imageUrl)).pop();
+};
 
 export default function Post({
   postData,
@@ -16,6 +40,8 @@ export default function Post({
   postData: {
     title: string;
     date: string;
+    imageSource: string;
+    alt: string;
     contentHtml: string;
   };
 }) {
@@ -32,6 +58,16 @@ export default function Post({
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
+        {getImage(postData.imageSource) && (
+          <div className={utilStyles.imageWrapper}>
+            <Image
+              src={getImage(postData.imageSource)}
+              alt={postData.alt}
+              width="350px"
+              height="300px"
+            ></Image>
+          </div>
+        )}
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>

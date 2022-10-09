@@ -1,10 +1,9 @@
 ---
 title: "⏲️ Wasting time pt. 1/n"
 date: "2022-05-30"
+imageSource: "wasting_time"
+alt: "Someone frustrated"
 ---
-
-![AI generated image of someone wasting time](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/aa47923a-b6b2-4a19-aebc-a051e1f0d6c4/Hotpot.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220730%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220730T210117Z&X-Amz-Expires=86400&X-Amz-Signature=87d4c488504bde3c92aa4bbc8395671fa182e97a991170fbd13c97584dd60836&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Hotpot.png%22&x-id=GetObject)
-_"Someone wasting time"_
 
 When I started college, I noticed I had an issue - whenever I didicated myself to something, I would frequently tell myself that I was wasting my time.
 

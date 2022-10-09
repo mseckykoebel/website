@@ -1,6 +1,8 @@
 ---
 title: "🐙 How to publish docker images as github packages to the Github container registry"
 date: "2021-11-19"
+imageSource: "github_registry"
+alt: "Someone frustrated"
 ---
 
 ## Background
