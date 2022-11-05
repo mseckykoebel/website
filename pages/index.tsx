@@ -20,51 +20,53 @@ const Home = ({ allPostsData }) => {
       <section className={`${utilStyles.headingMd} ${utilStyles.marginTopSm}`}>
         <p>
           I graduated from{" "}
-          <Link href="https://northwestern.edu">
-            <a target="_blank" rel="noreferrer">
-              Northwestern
-            </a>
+          <Link
+            href="https://northwestern.edu"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Northwestern
           </Link>
           . While there, I founded{" "}
-          <Link href="https://raiso.org">
-            <a target="_blank" rel="noreferrer">
-              Raiso
-            </a>
+          <Link href="https://raiso.org" target="_blank" rel="noreferrer">
+            Raiso
           </Link>
           , an AI organization focused on safety and education. I'm former
           intern #1, and a current founding software engineer at{" "}
-          <Link href="https://www.flexpa.com/">
-            <a target="_blank" rel="noreferrer">
-              Flexpa
-            </a>
+          <Link href="https://www.flexpa.com/" target="_blank" rel="noreferrer">
+            Flexpa
           </Link>
           , an{" "}
-          <Link href="https://a16z.com/">
-            <a target="_blank" rel="noreferrer">
-              a16z
-            </a>
+          <Link href="https://a16z.com/" target="_blank" rel="noreferrer">
+            a16z
           </Link>{" "}
           and{" "}
-          <Link href="http://www.apolloprojects.com/">
-            <a target="_blank" rel="noreferrer">
-              apollo
-            </a>
+          <Link
+            href="http://www.apolloprojects.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            apollo
           </Link>
           -backed startup building plaid for healthcare claims data. We were
           recently named one of the most{" "}
-          <Link href="https://www.businessinsider.com/21-most-promising-health-tech-startups-2022-according-to-vcs-2022-8/">
-            <a target="_blank" rel="noreferrer">
-              promising healthcare startups
-            </a>
+          <Link
+            href="https://www.businessinsider.com/21-most-promising-health-tech-startups-2022-according-to-vcs-2022-8/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            promising healthcare startups
           </Link>
           .
         </p>
         <p>
           Most of my code and projects can be found{" "}
-          <Link href="https://github.com/mseckykoebel">
-            <a target="_blank" rel="noreferrer">
-              here
-            </a>
+          <Link
+            href="https://github.com/mseckykoebel"
+            target="_blank"
+            rel="noreferrer"
+          >
+            here
           </Link>
           .
         </p>
@@ -77,9 +79,7 @@ const Home = ({ allPostsData }) => {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
+              <Link href={`/posts/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
@@ -112,37 +112,45 @@ const Home = ({ allPostsData }) => {
         <h2 className={utilStyles.headingLg}>News</h2>
         <ul className={utilStyles.list}>
           <li>
-            <Link href="https://www.axios.com/pro/health-tech-deals/2022/06/16/flexpa-raises-9m-seed-health-data-sharing">
-              <a target="_blank" rel="noreferrer">
-                Flexpa raises $8.5M to build new infrastructure for patient
-                access APIs
-              </a>
+            <Link
+              href="https://www.axios.com/pro/health-tech-deals/2022/06/16/flexpa-raises-9m-seed-health-data-sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Flexpa raises $8.5M to build new infrastructure for patient access
+              APIs
             </Link>
           </li>
           <br />
           <li>
-            <Link href="https://www.mccormick.northwestern.edu/artificial-intelligence/inside-our-program/stories/2021/raiso-student-group-explores-the-responsibility-and-safety-of-ai.html">
-              <a target="_blank" rel="noreferrer">
-                RAISO Student Group Explores the Responsibility and Safety of AI
-              </a>
+            <Link
+              href="https://www.mccormick.northwestern.edu/artificial-intelligence/inside-our-program/stories/2021/raiso-student-group-explores-the-responsibility-and-safety-of-ai.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RAISO Student Group Explores the Responsibility and Safety of AI
             </Link>
           </li>
           <br />
           <li>
-            <Link href="https://podcasts.apple.com/us/podcast/responsible-ai-raiso-bijal-mehta-mason-secky-koebel/id1539792238?i=1000518434684">
-              <a target="_blank" rel="noreferrer">
-                Responsible AI and RAISO with Bijal Mehta and Mason Secky-Koebel
-                | AI with Alex
-              </a>
+            <Link
+              href="https://podcasts.apple.com/us/podcast/responsible-ai-raiso-bijal-mehta-mason-secky-koebel/id1539792238?i=1000518434684"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Responsible AI and RAISO with Bijal Mehta and Mason Secky-Koebel |
+              AI with Alex
             </Link>
           </li>
           <br />
           <li>
-            <Link href="https://dailynorthwestern.com/2021/04/02/campus/new-student-group-spreads-awareness-of-artificial-intelligence-ethics-big-data-injustices/">
-              <a target="_blank" rel="noreferrer">
-                New student group spreads awareness of artificial intelligence
-                ethics, big data injustices
-              </a>
+            <Link
+              href="https://dailynorthwestern.com/2021/04/02/campus/new-student-group-spreads-awareness-of-artificial-intelligence-ethics-big-data-injustices/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              New student group spreads awareness of artificial intelligence
+              ethics, big data injustices
             </Link>
           </li>
         </ul>
