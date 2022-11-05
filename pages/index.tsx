@@ -5,7 +5,6 @@ import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import { GetStaticProps } from "next";
-import { MailIcon } from "@heroicons/react/solid";
 
 const Home = ({ allPostsData }) => {
   return (

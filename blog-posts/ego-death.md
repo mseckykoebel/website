@@ -1,5 +1,5 @@
 ---
-title: "🏺 Ego death (archive)"
+title: "🏺 Something special"
 date: "2020-02-08"
 ---
 
