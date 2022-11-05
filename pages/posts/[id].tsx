@@ -63,8 +63,8 @@ export default function Post({
             <Image
               src={getImage(postData.imageSource)}
               alt={postData.alt}
-              width="350px"
-              height="300px"
+              width={350}
+              height={300}
             ></Image>
           </div>
         )}
