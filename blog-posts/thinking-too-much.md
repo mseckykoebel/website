@@ -1,7 +1,6 @@
 ---
-title: "💈 Polishing rocks"
+title: "🧠 On thinking too much"
 date: "2022-11-04"
-imageSource: "polishing_rocks"
 alt: "A person choosing to eat cake over eating healthy vegetables"
 ---
 
