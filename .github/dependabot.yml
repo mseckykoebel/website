@@ -8,8 +8,8 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/"
     schedule:
-      interval: "daily"
-      time: "10:00"
+      interval: "weekly"
+      time: "9:00"
       timezone: "America/New_York"
     labels: 
       - "dependencies"

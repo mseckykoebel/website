@@ -1,5 +1,5 @@
 ---
-title: "⏲️ Wasting time pt. 1/n"
+title: "⏲️ Wasting time pt. 1"
 date: "2022-05-30"
 imageSource: "wasting_time"
 alt: "Someone frustrated"
