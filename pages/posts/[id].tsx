@@ -13,6 +13,7 @@ import twenty_percent_problems from "../../public/images/twenty_percent_problems
 import pedalcell from "../../public/images/pedalcell.jpeg";
 import making_bad_things from "../../public/images/making_bad_things.jpeg";
 import github_registry from "../../public/images/github_registry.jpeg";
+import polishing_rocks from "../../public/images/polishing_rocks.png";
 import breathing from "../../public/images/breathing.png";
 import play_the_game from "../../public/images/play_the_game.jpg";
 
@@ -28,6 +29,7 @@ const getImage = (imageUrl: string) => {
     pedalcell,
     making_bad_things,
     github_registry,
+    polishing_rocks,
     breathing,
     play_the_game,
   ];
@@ -64,7 +66,7 @@ export default function Post({
               src={getImage(postData.imageSource)}
               alt={postData.alt}
               width={350}
-              height={300}
+              height={350}
             ></Image>
           </div>
         )}
