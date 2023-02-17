@@ -129,6 +129,7 @@ const Home = ({ allPostsData }) => {
               care
             </Link>
           </li>
+          <br />
           <li>
             <Link
               href="https://www.axios.com/pro/health-tech-deals/2022/06/16/flexpa-raises-9m-seed-health-data-sharing"
