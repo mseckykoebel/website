@@ -31,8 +31,8 @@ const Home = ({ allPostsData }) => {
           <Link href="https://raiso.org" target="_blank" rel="noreferrer">
             Raiso
           </Link>
-          , an AI organization focused on safety and education. I'm former
-          intern #1, and a current founding software engineer at{" "}
+          , an AI organization focused on safety and education. I was intern #1,
+          and a founding engineer at{" "}
           <Link href="https://www.flexpa.com/" target="_blank" rel="noreferrer">
             Flexpa
           </Link>
@@ -57,7 +57,15 @@ const Home = ({ allPostsData }) => {
           >
             promising healthcare startups
           </Link>
-          .
+          . I left Flexpa to co-found{" "}
+          <Link
+            href="https://www.jupiter-dx.com/pre-seed-announcement/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            JupiterDX
+          </Link>
+          , where we're building a platform for Long COVID care.
         </p>
         <p>
           Most of my code and projects can be found{" "}
@@ -111,6 +119,16 @@ const Home = ({ allPostsData }) => {
       <section className={`${utilStyles.headingMd} ${utilStyles.marginTopLg}`}>
         <h2 className={utilStyles.headingLg}>News</h2>
         <ul className={utilStyles.list}>
+          <li>
+            <Link
+              href="https://www.bizjournals.com/chicago/inno/stories/fundings/2023/01/24/health-tech-startup-jupiterdx-preseed.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Health tech startup JupiterDX to launch platform for long Covid
+              care
+            </Link>
+          </li>
           <li>
             <Link
               href="https://www.axios.com/pro/health-tech-deals/2022/06/16/flexpa-raises-9m-seed-health-data-sharing"
