@@ -1,10 +1,9 @@
 ---
 title: "🕹️ Play the game"
 date: "2021-02-11"
+imageSource: "play_the_game"
+alt: "A photo of me somewhere in Pennsylvania"
 ---
-
-![A picture of me when I was a kid - somewhere in Pennsylvania](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d1a601e1-1faa-40f3-bd76-f9e57595a330/mason.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220424%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220424T214227Z&X-Amz-Expires=86400&X-Amz-Signature=45f9014944df211a22f1d6dc1078dfe5e650687ba479ee0151d94fbf2bc8057a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22mason.jpg%22&x-id=GetObject)
-_Somewhere in Pennsylvania_
 
 I talked to my older cousin last night for the first time in 4 years. Among the topics we discussed was networking. He reminisced about what it was like to be 21 again (he’s 41 now). He finished school later than usual and immediately went into real-estate after his athletic career ended prematurely.
 

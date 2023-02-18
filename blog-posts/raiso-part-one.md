@@ -1,5 +1,5 @@
 ---
-title: "🤖 Raiso (how did we get here?) pt. 1"
+title: "🤖 Raiso pt. 1"
 date: "2021-08-10"
 ---
 

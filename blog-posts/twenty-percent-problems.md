@@ -1,10 +1,9 @@
 ---
 title: "🤔 20% Problems"
 date: "2022-07-22"
+imageSource: "twenty_percent_problems"
+alt: "Someone bent up about the time they are wasting"
 ---
-
-![AI generated art of someone looking to the left with an orange, pink, and black background](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b9093c0-7549-4c68-866f-57901331d835/8-PUuVaroS0TK0PN7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220730%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220730T210136Z&X-Amz-Expires=86400&X-Amz-Signature=ef3b9ccf2f87fa9b456d415bbebc2302d9ad673d7e6a68306feaf166d34acd22&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%228-PUuVaroS0TK0PN7.png%22&x-id=GetObject)
-_"Someone focusing on the important things"_
 
 Some recent startup advice I got: work on 80% problems instead of 20% problems.
 
