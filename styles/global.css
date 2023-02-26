@@ -45,3 +45,26 @@ code {
   padding-left: 0.2em;
   padding-right: 0.2em;
 }
+
+/* fonts */
+
+@font-face {
+  font-family: "WarnockPro-Regular";
+  src: url("../public/fonts/WarnockPro-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WarnockPro-Bold";
+  src: url("../public/fonts/WarnockPro-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WarnockPro-Subheading";
+  src: url("../public/fonts/WarnockPro-Subh.ttf");
+  font-weight: normal;
+  font-style: normal;
+}

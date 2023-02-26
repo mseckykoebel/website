@@ -1,4 +1,5 @@
 .container {
+  font-family: "WarnockPro-Regular";
   max-width: 36rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
@@ -12,5 +13,6 @@
 }
 
 .backToHome {
+  font-family: "WarnockPro-Regular";
   margin: 3rem 0 0;
 }

@@ -17,7 +17,9 @@ const Home = ({ allPostsData }) => {
           src="https://plausible.io/js/plausible.js"
         ></script>
       </Head>
-      <section className={`${utilStyles.headingMd} ${utilStyles.marginTopSm}`}>
+      <section
+        className={`${utilStyles.headingMd} ${utilStyles.marginTopSm} ${utilStyles.warnockProRegular}`}
+      >
         <p>
           I graduated from{" "}
           <Link
