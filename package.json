@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.11",
-    "@heroicons/react": "^2.0.16",
+    "@heroicons/react": "^2.0.18",
     "date-fns": "^2.29.3",
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.6.0",
