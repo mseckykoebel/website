@@ -9,7 +9,7 @@ I talked to my older cousin last night for the first time in 4 years. Among the 
 
 “Secky’s don’t work for anyone else…but you gotta play the game.”
 
-I hate networking. I hate LinkedIn. And, yes, I hate playing the game. It always felt disingenuous. I always clung too hard to childhood giftedness and a sense that I could ride meritocracy like an elevator to the kingdom of a 6-figure check. Or my own business, with Tech Crunch spreads, space lasers, and strippers.
+I don't love networking. It's always felt disingenuous. I've always clung too hard to childhood giftedness and a sense that I could ride meritocracy like an elevator to the kingdom of a 6-figure check. Or my own business, with Tech Crunch spreads, space lasers, and strippers.
 
 But, I went to Northwestern - and that’s not what I got.
 
