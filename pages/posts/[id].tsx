@@ -48,6 +48,7 @@ export default function Post({
   useEffect(() => {
     hljs.highlightAll();
   }, []);
+
   return (
     <Layout>
       <Head>

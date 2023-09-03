@@ -65,7 +65,7 @@ const Home = ({ allPostsData }) => {
             target="_blank"
             rel="noreferrer"
           >
-            JupiterDX
+            Pathize
           </Link>
           , where we're building a platform for Long COVID care.
         </p>
