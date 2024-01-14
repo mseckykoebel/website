@@ -1,21 +1,23 @@
 import Head from "next/head";
 import Link from "next/link";
+import { GetStaticProps } from "next";
+import Script from "next/script";
+
 import Layout, { siteTitle } from "../components/layout";
 import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
-import { GetStaticProps } from "next";
 
 const Home = ({ allPostsData }) => {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        <script
+        <Script
           defer
           data-domain="masonseckykoebel.com"
           src="https://plausible.io/js/plausible.js"
-        ></script>
+        ></Script>
       </Head>
       <section
         className={`${utilStyles.headingMd} ${utilStyles.marginTopSm} ${utilStyles.warnockProRegular}`}
