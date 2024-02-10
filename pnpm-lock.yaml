@@ -35,6 +35,9 @@ dependencies:
   postcss-preset-env:
     specifier: ^7.8.3
     version: 7.8.3(postcss@8.4.33)
+  posthog-js:
+    specifier: ^1.105.6
+    version: 1.105.6
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -815,6 +818,10 @@ packages:
     resolution: {integrity: sha512-ifCoaXsDrsdkWTtiNJX5uzHDsrck5TzfKKDcuFFTIrrc/BS076qgEIfoIy1VeZqViznfKiysPYTh/QeHtnIsYA==}
     dependencies:
       reusify: 1.0.4
+
+  /fflate@0.4.8:
+    resolution: {integrity: sha512-FJqqoDBR00Mdj9ppamLa/Y7vxm+PRmNWA67N846RvsoYVMKB4q3y/de5PA7gUmRMYK/8CMz2GDZQmCRN1wBcWA==}
+    dev: false
 
   /fill-range@7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
@@ -1939,6 +1946,17 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /posthog-js@1.105.6:
+    resolution: {integrity: sha512-5ITXsh29XIuNohHLy21nawGnfFZDpyt+yfnWge9sJl5yv0nNuoUmLiDgw1tJafoqGrfd5CUasKyzSI21HxsSeQ==}
+    dependencies:
+      fflate: 0.4.8
+      preact: 10.19.4
+    dev: false
+
+  /preact@10.19.4:
+    resolution: {integrity: sha512-dwaX5jAh0Ga8uENBX1hSOujmKWgx9RtL80KaKUFLc6jb4vCEAc3EeZ0rnQO/FO4VgjfPMfoLFWnNG8bHuZ9VLw==}
+    dev: false
 
   /property-information@6.4.0:
     resolution: {integrity: sha512-9t5qARVofg2xQqKtytzt+lZ4d1Qvj8t5B8fEwXK6qOfgRLgH/b13QlgEyDh033NOS31nXeFbYv7CLUDG1CeifQ==}
