@@ -18,7 +18,7 @@
     "postcss": "^8.4.33",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^7.8.3",
-    "posthog-js": "^1.105.6",
+    "posthog-js": "^1.139.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "remark": "^13.0.0",
