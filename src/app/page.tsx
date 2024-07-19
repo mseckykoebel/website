@@ -41,7 +41,7 @@ function Description() {
       </Link>
       . While there, I founded{" "}
       <Link href="https://www.raiso.org" target="_blank">
-        3 Raiso
+        Raiso
       </Link>
       , an AI organization focused on safety and education. I was intern #1, and
       a founding engineer at{" "}
