@@ -10,7 +10,11 @@ export function MainLayout({ children }: { children: React.ReactNode }) {
       flexDirection="column"
       justifyContent="start"
       alignItems="center"
-      padding="$12"
+      $sm={{ padding: "20px" }}
+      $md={{ padding: "40px" }}
+      $lg={{ padding: "60px" }}
+      $xl={{ padding: "80px" }}
+      $gtXl={{ padding: "100px" }}
       background="$background"
     >
       <YStack
