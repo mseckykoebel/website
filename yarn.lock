@@ -2541,21 +2541,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.45.0":
-  version: 5.45.0
-  resolution: "@tanstack/query-core@npm:5.45.0"
-  checksum: 10c0/b1adb0e44a6294f8fc63d1f3915e657e29799ae761012a49430f2694f9fd4f7041984949f61d412ad43e5aaba3ea880ab89b3d2c309cb2860a2913029e9062e9
+"@tanstack/query-core@npm:5.51.9":
+  version: 5.51.9
+  resolution: "@tanstack/query-core@npm:5.51.9"
+  checksum: 10c0/05ae00d0f4c80ea82991b7624551da543abbe8782b9b3910867d1d142076e2ac8892f50c37f2bde0bfa70ada3be1ad2f74472aece945a0237d2c86b729a02a1c
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:^5.45.1":
-  version: 5.45.1
-  resolution: "@tanstack/react-query@npm:5.45.1"
+"@tanstack/react-query@npm:^5.51.11":
+  version: 5.51.11
+  resolution: "@tanstack/react-query@npm:5.51.11"
   dependencies:
-    "@tanstack/query-core": "npm:5.45.0"
+    "@tanstack/query-core": "npm:5.51.9"
   peerDependencies:
     react: ^18.0.0
-  checksum: 10c0/39968d90bfe365ea0a1bff64caaf065fc8ea3304ae450a055265e235e461bd82bbe3dc9182d32062ecb48c45e2d679ee87909489bde9b9e7b09ed7c41e81fd93
+  checksum: 10c0/318aea36ffafc3e5123d970442c1358058137c069ef65dddcef87ea2406bc2f943f5e6da286df581885ba192b962b96eb785e57ef29366ee2178f18e39190f76
   languageName: node
   linkType: hard
 
@@ -8964,7 +8964,7 @@ __metadata:
     "@tamagui/lucide-icons": "npm:^1.101.3"
     "@tamagui/next-plugin": "npm:^1.101.3"
     "@tamagui/next-theme": "npm:^1.103.0"
-    "@tanstack/react-query": "npm:^5.45.1"
+    "@tanstack/react-query": "npm:^5.51.11"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
