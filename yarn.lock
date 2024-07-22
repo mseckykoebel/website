@@ -1489,6 +1489,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tamagui/constants@npm:1.103.0":
+  version: 1.103.0
+  resolution: "@tamagui/constants@npm:1.103.0"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/263ef66b2e3a734b6995b66bb051794a5046b09a3b44e409ccffcde299c25d387ac04271d127cc409c6bf0a32daa468b70bd24dddc2cee0560aca3f5f364c18d
+  languageName: node
+  linkType: hard
+
 "@tamagui/core@npm:1.101.3":
   version: 1.101.3
   resolution: "@tamagui/core@npm:1.101.3"
@@ -1851,13 +1860,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/next-theme@npm:^1.101.3":
-  version: 1.101.3
-  resolution: "@tamagui/next-theme@npm:1.101.3"
+"@tamagui/next-theme@npm:^1.103.0":
+  version: 1.103.0
+  resolution: "@tamagui/next-theme@npm:1.103.0"
   dependencies:
-    "@tamagui/constants": "npm:1.101.3"
-    "@tamagui/use-event": "npm:1.101.3"
-  checksum: 10c0/8431b144293453e6442589241b41a1d55661c9d3555188edc164e4535c81225e0e53a67dbb1f122a61f9d618e0625763e72b6e71399392cd63a666e7359437de
+    "@tamagui/constants": "npm:1.103.0"
+    "@tamagui/use-event": "npm:1.103.0"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/493661f13edf9640b54ad26e75841d9843d4a33e3d5a70fb8619114e3a748771b5556f2e43a5a2fee2864161104974646c3551c687d4bc915eff7f8f7a6cc882
   languageName: node
   linkType: hard
 
@@ -2447,6 +2458,17 @@ __metadata:
   dependencies:
     "@tamagui/constants": "npm:1.101.3"
   checksum: 10c0/e2e1fe483b180ab10ac6023036702a18fdc58eed4f4e8771f3c45d6b1994d6a0c25eece660b278642ce2c3ce185eca2bef97b93bee603943c6f100cf387052fc
+  languageName: node
+  linkType: hard
+
+"@tamagui/use-event@npm:1.103.0":
+  version: 1.103.0
+  resolution: "@tamagui/use-event@npm:1.103.0"
+  dependencies:
+    "@tamagui/constants": "npm:1.103.0"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/67644e30877ecd42d62e96a966e04afe18807ceb9c98dad23711caf51d423f09154a26cf490b5999ba13c466796b162b36d8149543d4846274126f36c0b34c93
   languageName: node
   linkType: hard
 
@@ -8941,7 +8963,7 @@ __metadata:
     "@tamagui/config": "npm:^1.101.3"
     "@tamagui/lucide-icons": "npm:^1.101.3"
     "@tamagui/next-plugin": "npm:^1.101.3"
-    "@tamagui/next-theme": "npm:^1.101.3"
+    "@tamagui/next-theme": "npm:^1.103.0"
     "@tanstack/react-query": "npm:^5.45.1"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
