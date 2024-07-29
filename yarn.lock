@@ -7490,14 +7490,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"posthog-js@npm:^1.148.0":
-  version: 1.148.0
-  resolution: "posthog-js@npm:1.148.0"
+"posthog-js@npm:^1.150.1":
+  version: 1.150.1
+  resolution: "posthog-js@npm:1.150.1"
   dependencies:
     fflate: "npm:^0.4.8"
     preact: "npm:^10.19.3"
     web-vitals: "npm:^4.0.1"
-  checksum: 10c0/f6d6e2f41104abd2a191c258b6f8d987163af17ddcb4b975a10afb9f92c0e2084107e49b622a0a7d95aeb5119fe0ddd74ff02237512e8e1d842b5b4c586af04d
+  checksum: 10c0/a82376412b90a41df3964a6acda567219ebbdca6852b652b7fbbd739152bb23791855cd7b26d8c0379916f3a76ba707bd09d2673cc8e8aa31fa55cddf65ca459
   languageName: node
   linkType: hard
 
@@ -9089,7 +9089,7 @@ __metadata:
     eslint-config-next: "npm:14.2.4"
     gray-matter: "npm:^4.0.3"
     next: "npm:14.2.5"
-    posthog-js: "npm:^1.148.0"
+    posthog-js: "npm:^1.150.1"
     react: "npm:^18"
     react-dom: "npm:^18"
     react-native-svg: "npm:^15.3.0"
