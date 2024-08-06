@@ -23,7 +23,15 @@ export default function Page() {
     enabled: !!slug,
   });
 
-  if (!postData) return null;
+  if (!postData) {
+    return (
+      <FadeInYStack>
+        <Paragraph size="$8" ta="center" col="$color12">
+          Loading...
+        </Paragraph>
+      </FadeInYStack>
+    );
+  }
 
   const { title, date, content } = postData;
 
