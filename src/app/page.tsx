@@ -83,6 +83,25 @@ function News() {
       <YStack marginTop={10} gap="$4">
         <Paragraph size="$5">
           <Link
+            href="https://www.psychologytoday.com/us/blog/shouldstorm/202404/the-many-reasons-for-hope-in-long-covid"
+            target="_blank"
+          >
+            The Many Reasons for Hope in Long Covid
+          </Link>
+        </Paragraph>
+
+        <Paragraph size="$5">
+          <Link
+            href="https://www.forbes.com/sites/gusalexiou/2023/10/18/pathize-app-uses-biometrics-to-help-long-covid-patients-manage-their-fatigue/"
+            target="_blank"
+          >
+            Pathize App Uses Biometrics To Help Long Covid Patients Manage Their
+            Fatigue
+          </Link>
+        </Paragraph>
+
+        <Paragraph size="$5">
+          <Link
             href="https://www.bizjournals.com/chicago/inno/stories/fundings/2023/01/24/health-tech-startup-jupiterdx-preseed.html"
             target="_blank"
           >
