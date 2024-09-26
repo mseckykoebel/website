@@ -252,7 +252,7 @@ export function WorkAccordion() {
               <XStack alignItems="center">
                 <Image
                   source={{
-                    uri: "https://media.licdn.com/dms/image/C560BAQFEHwm09uVV0w/company-logo_200_200/0/1633100886398/brinc_drones_logo?e=1727308800&v=beta&t=-ZLV6l0Lq84N5BNHyofMzpjMo_UQZvPpIPdAiHxUsgw",
+                    uri: "https://media.licdn.com/dms/image/v2/C560BAQFEHwm09uVV0w/company-logo_200_200/company-logo_200_200/0/1633100886398/brinc_drones_logo?e=1735171200&v=beta&t=V4HyhYJbV2nKTMaoMFszjsaZPADsrHB1mwpPJMRLbS4",
                     width: 35,
                     height: 35,
                   }}
