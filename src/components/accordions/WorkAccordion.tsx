@@ -4,7 +4,75 @@ import { ChevronDown } from "@tamagui/lucide-icons";
 export function WorkAccordion() {
   return (
     <Accordion overflow="hidden" width="100%" type="multiple">
+      {/* blh */}
       <Accordion.Item value="a1">
+        <Accordion.Trigger flexDirection="row">
+          {({ open }: { open: boolean }) => (
+            <XStack justifyContent="space-between" width="100%">
+              <XStack alignItems="center">
+                <Image
+                  source={{
+                    uri: "https://media.licdn.com/dms/image/v2/D4E0BAQHajke2ewcGMg/company-logo_200_200/company-logo_200_200/0/1708554930315/big_leap_health_logo?e=1735171200&v=beta&t=ok8AHyfLYd5J3U3U0NA7iYBg7VHfLFBWf4v5EpOl4As",
+                    width: 35,
+                    height: 35,
+                  }}
+                  enterStyle={{
+                    scale: 1,
+                    y: -0.1,
+                    opacity: 0,
+                  }}
+                  animation="slow"
+                  borderRadius="$1"
+                  alt="Big leap health company logo"
+                  marginRight="$3"
+                />
+                <YStack>
+                  <Paragraph size="$3">
+                    Big Leap Health - Software Engineer
+                  </Paragraph>
+                  <Paragraph size="$1">September 2024 - Present</Paragraph>
+                </YStack>
+              </XStack>
+              <Square animation="quick" rotate={open ? "180deg" : "0deg"}>
+                <ChevronDown size="$1" />
+              </Square>
+            </XStack>
+          )}
+        </Accordion.Trigger>
+        <Accordion.HeightAnimator animation="medium">
+          <Accordion.Content animation="medium" exitStyle={{ opacity: 0 }}>
+            <YStack gap="$2">
+              <Paragraph size="$4">
+                I currently work at Big Leap Health as the first software
+                engineer.
+              </Paragraph>
+              <Paragraph size="$4">
+                <Paragraph size="$4">
+                  <a
+                    href="https://www.linkedin.com/in/yakovkagan/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Yakov
+                  </a>{" "}
+                  was an advisor and consultant at Pathize. After I left{" "}
+                </Paragraph>
+                Pathize, he was at the top of my list of people to work with.
+              </Paragraph>
+              <Paragraph size="$4">
+                BLH is working on clinical infrastructure/tooling that lets
+                clinics that offer novel therapeutics (like ketamine,
+                psilocybin, etc.) to scale their operations, and accept
+                insurance. They are doing what Headway does for therapists, but
+                for these alternative mental health clinics.
+              </Paragraph>
+            </YStack>
+          </Accordion.Content>
+        </Accordion.HeightAnimator>
+      </Accordion.Item>
+
+      {/* pathize */}
+      <Accordion.Item value="a2">
         <Accordion.Trigger flexDirection="row">
           {({ open }: { open: boolean }) => (
             <XStack justifyContent="space-between" width="100%">
@@ -64,7 +132,8 @@ export function WorkAccordion() {
         </Accordion.HeightAnimator>
       </Accordion.Item>
 
-      <Accordion.Item value="a2">
+      {/* flexpa */}
+      <Accordion.Item value="a3">
         <Accordion.Trigger flexDirection="row">
           {({ open }: { open: boolean }) => (
             <XStack justifyContent="space-between" width="100%">
@@ -116,7 +185,8 @@ export function WorkAccordion() {
         </Accordion.HeightAnimator>
       </Accordion.Item>
 
-      <Accordion.Item value="a3">
+      {/* flexpa intern */}
+      <Accordion.Item value="a4">
         <Accordion.Trigger flexDirection="row">
           {({ open }: { open: boolean }) => (
             <XStack justifyContent="space-between" width="100%">
@@ -174,7 +244,8 @@ export function WorkAccordion() {
         </Accordion.HeightAnimator>
       </Accordion.Item>
 
-      <Accordion.Item value="a4">
+      {/* brinc */}
+      <Accordion.Item value="a5">
         <Accordion.Trigger flexDirection="row">
           {({ open }: { open: boolean }) => (
             <XStack justifyContent="space-between" width="100%">
@@ -225,7 +296,8 @@ export function WorkAccordion() {
         </Accordion.HeightAnimator>
       </Accordion.Item>
 
-      <Accordion.Item value="a5">
+      {/* hurds */}
+      <Accordion.Item value="a6">
         <Accordion.Trigger flexDirection="row">
           {({ open }: { open: boolean }) => (
             <XStack justifyContent="space-between" width="100%">
