@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useCallback } from "react";
+import React, { Fragment, useCallback } from "react";
 import { YStack, Paragraph, XStack, View, Spinner } from "tamagui";
 import { useQuery } from "@tanstack/react-query";
 import Link from "next/link";
@@ -34,28 +34,34 @@ function Header() {
 
 function Description() {
   return (
-    <Paragraph marginTop={10} size="$4" col="$color11" ta="start">
-      I graduated from{" "}
-      <Link href="https://www.northwestern.edu" target="_blank">
-        Northwestern
-      </Link>
-      . While there, I founded{" "}
-      <Link href="https://www.raiso.org" target="_blank">
-        Raiso
-      </Link>
-      , an AI organization focused on safety and education. I was intern #1, and
-      a founding engineer at{" "}
-      <Link href="https://www.flexpa.com" target="_blank">
-        Flexpa
-      </Link>
-      , an a16z and apollo-backed startup building plaid for healthcare claims
-      data. We were recently named one of the most promising healthcare
-      startups. I left Flexpa to co-found{" "}
-      <Link href="https://www.pathizehealth.com" target="_blank">
-        Pathize Health
-      </Link>
-      , where we built a platform for Long COVID care.
-    </Paragraph>
+    <Fragment>
+      <Paragraph marginTop={10} size="$4" col="$color11" ta="start">
+        I graduated from{" "}
+        <Link href="https://www.northwestern.edu" target="_blank">
+          Northwestern
+        </Link>
+        . While there, I founded{" "}
+        <Link href="https://www.raiso.org" target="_blank">
+          Raiso
+        </Link>
+        , an AI organization focused on safety and education. I was intern #1,
+        and a founding engineer at{" "}
+        <Link href="https://www.flexpa.com" target="_blank">
+          Flexpa
+        </Link>
+        , an a16z and apollo-backed startup building plaid for healthcare claims
+        data. We were recently named one of the most promising healthcare
+        startups. I left Flexpa to co-found{" "}
+        <Link href="https://www.pathizehealth.com" target="_blank">
+          Pathize Health
+        </Link>
+        , where we built a platform for Long COVID care.
+      </Paragraph>
+      <Paragraph marginTop={10} size="$4" col="$color11" ta="start">
+        I am currently based in Chicago. I write infrequently about technology
+        and startups, and am always down to chat about either :).
+      </Paragraph>
+    </Fragment>
   );
 }
 
