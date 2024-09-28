@@ -63,8 +63,7 @@ export function WorkAccordion() {
                 BLH is working on clinical infrastructure/tooling that lets
                 clinics that offer novel therapeutics (like ketamine,
                 psilocybin, etc.) to scale their operations, and accept
-                insurance. They are doing what Headway does for therapists, but
-                for these alternative mental health clinics.
+                insurance.
               </Paragraph>
             </YStack>
           </Accordion.Content>
