@@ -1281,15 +1281,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/animations-moti@npm:1.101.3":
-  version: 1.101.3
-  resolution: "@tamagui/animations-moti@npm:1.101.3"
+"@tamagui/animations-css@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/animations-css@npm:1.112.7"
   dependencies:
-    "@tamagui/use-presence": "npm:1.101.3"
-    "@tamagui/web": "npm:1.101.3"
+    "@tamagui/constants": "npm:1.112.7"
+    "@tamagui/cubic-bezier-animator": "npm:1.112.7"
+    "@tamagui/use-presence": "npm:1.112.7"
+    "@tamagui/web": "npm:1.112.7"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/786961a7fd26164230d15f715e9fc0a8efc36c742b412c5b15ee69798aa181d551f9d0d935848918130524b1dedf32cf3e8880eb0b9c485ef320064d399ecded
+  languageName: node
+  linkType: hard
+
+"@tamagui/animations-moti@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/animations-moti@npm:1.112.7"
+  dependencies:
+    "@tamagui/use-presence": "npm:1.112.7"
+    "@tamagui/web": "npm:1.112.7"
   peerDependencies:
     moti: "*"
-  checksum: 10c0/9a3832faa2838a7c0ad73426d3b9fda8db84c00fdfe93c3912d0c954a9b41e79d2ad3bdaa923e13988c9ff2c2b252ee66b289c031d790f75adf4fe87f3046ec6
+    react: "*"
+  checksum: 10c0/62505637516368f22eb5244dbcac8c0c0ca7594a45a86e9d2ea74a944e43eeea2a0e263afd3b0667b2f95b23668e29fd15bcc36f21da4fc2afb07723fc78381f
   languageName: node
   linkType: hard
 
@@ -1301,6 +1316,19 @@ __metadata:
     "@tamagui/use-presence": "npm:1.101.3"
     "@tamagui/web": "npm:1.101.3"
   checksum: 10c0/4647b119fa9110bf708725e4d76afdea34c4be67d4796475dea35c6a0be8f4791f5cd25f96ceb4572d9d48bfbae27f8d7cdbd4cd576cc44280918d0450647f80
+  languageName: node
+  linkType: hard
+
+"@tamagui/animations-react-native@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/animations-react-native@npm:1.112.7"
+  dependencies:
+    "@tamagui/constants": "npm:1.112.7"
+    "@tamagui/use-presence": "npm:1.112.7"
+    "@tamagui/web": "npm:1.112.7"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/3f1c9b248b287cb478ebb9b51f015bad69e3059060e5ac72f9e41b0a0f60fef4949cbdd6821f7d71560b14073764fc9797887b83c135d38df8352d858bc4484f
   languageName: node
   linkType: hard
 
@@ -1462,10 +1490,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/colors@npm:1.101.3":
-  version: 1.101.3
-  resolution: "@tamagui/colors@npm:1.101.3"
-  checksum: 10c0/82ba216c1787f5ed3aeffcd677a8aefd67293c6ae927bbdaadb5f43e900cfabe31830f4947a4c3f507716e22848ac800967b77799a847ef1d3f360a4c998d20e
+"@tamagui/colors@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/colors@npm:1.112.7"
+  checksum: 10c0/0a826936bb38750728a57212099298f6e251f012b897dae8fa9e86eb125c4118b3bf4600bdc4c6739c98ce0f11178e55dce2a506290e1e1c3ee0d4dae6efee42
   languageName: node
   linkType: hard
 
@@ -1496,21 +1524,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/config@npm:^1.101.3":
-  version: 1.101.3
-  resolution: "@tamagui/config@npm:1.101.3"
+"@tamagui/config@npm:^1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/config@npm:1.112.7"
   dependencies:
-    "@tamagui/animations-css": "npm:1.101.3"
-    "@tamagui/animations-moti": "npm:1.101.3"
-    "@tamagui/animations-react-native": "npm:1.101.3"
-    "@tamagui/colors": "npm:1.101.3"
-    "@tamagui/font-inter": "npm:1.101.3"
-    "@tamagui/font-silkscreen": "npm:1.101.3"
-    "@tamagui/react-native-media-driver": "npm:1.101.3"
-    "@tamagui/shorthands": "npm:1.101.3"
-    "@tamagui/themes": "npm:1.101.3"
-    "@tamagui/web": "npm:1.101.3"
-  checksum: 10c0/76556c3e3db19f4459b8eb4d6099aae2f465266fa0cffaf009b369de40ec83bb00df3e5d70b825ea576980c93141a7a918159291ea6e9b65c5e8f576ff420e39
+    "@tamagui/animations-css": "npm:1.112.7"
+    "@tamagui/animations-moti": "npm:1.112.7"
+    "@tamagui/animations-react-native": "npm:1.112.7"
+    "@tamagui/colors": "npm:1.112.7"
+    "@tamagui/font-inter": "npm:1.112.7"
+    "@tamagui/font-silkscreen": "npm:1.112.7"
+    "@tamagui/react-native-media-driver": "npm:1.112.7"
+    "@tamagui/shorthands": "npm:1.112.7"
+    "@tamagui/themes": "npm:1.112.7"
+    "@tamagui/web": "npm:1.112.7"
+  checksum: 10c0/24e8baaeb151be01b89e0a891f3571a738cff5c6f3bf38af53e085e209a5c85b9e41d61d73bef13b718da9b1283b832929e53b941dc663fec32b1cec2a17de40
   languageName: node
   linkType: hard
 
@@ -1579,10 +1607,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tamagui/create-theme@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/create-theme@npm:1.112.7"
+  dependencies:
+    "@tamagui/web": "npm:1.112.7"
+  checksum: 10c0/29721dd4ec9142df1e1b6888770588057a57a31d304a062dab3f8e892550765804d2a91c622611cfbfaf575a8d48d792bfe1f45bf377de8e7da33dcc7d5b1f3b
+  languageName: node
+  linkType: hard
+
 "@tamagui/cubic-bezier-animator@npm:1.101.3":
   version: 1.101.3
   resolution: "@tamagui/cubic-bezier-animator@npm:1.101.3"
   checksum: 10c0/2ea7802fbf511d2e8c480c74a25f89348404d32fd5af432d7552533a35e44aca234c5bdbb6b98399fa094526150db2978f48eefef43573b5254fdb0154dcfb1d
+  languageName: node
+  linkType: hard
+
+"@tamagui/cubic-bezier-animator@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/cubic-bezier-animator@npm:1.112.7"
+  checksum: 10c0/9eea48bb748f62ca3dcb4b80960b7af34bdf02e17969677e57ce63efadb59c0a2e118b75ec5e95368dd4f8c3e5f2b5be61fc2fc0302f2ed99e743e15df452783
   languageName: node
   linkType: hard
 
@@ -1677,21 +1721,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/font-inter@npm:1.101.3":
-  version: 1.101.3
-  resolution: "@tamagui/font-inter@npm:1.101.3"
+"@tamagui/font-inter@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/font-inter@npm:1.112.7"
   dependencies:
-    "@tamagui/core": "npm:1.101.3"
-  checksum: 10c0/33be8bb8959037f60b8f876ce91fac25c28a8b95fb7fbc44099f8d7c155933daa05dfe09b9752b910dcc2e903e5a7cef740bc030e005c3a7ff7c64312a158de8
+    "@tamagui/core": "npm:1.112.7"
+  checksum: 10c0/c1bdd49b39c9e28c5df6ef16a4c44c0de2e8879f8a56e9f5a37b2d93d5da2949eaf59dfd664ed67bf87abb65b044420ec629c628cfa75757fb94098386d55dab
   languageName: node
   linkType: hard
 
-"@tamagui/font-silkscreen@npm:1.101.3":
-  version: 1.101.3
-  resolution: "@tamagui/font-silkscreen@npm:1.101.3"
+"@tamagui/font-silkscreen@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/font-silkscreen@npm:1.112.7"
   dependencies:
-    "@tamagui/core": "npm:1.101.3"
-  checksum: 10c0/07db158ac92c3f163cd9c719b78856d74e4e81f71382f406a0fd3d0a7331d45edae57a02fe5106dd0645dc956a6d099052d1ebc0e02227bf63a2c882e6b8a9f5
+    "@tamagui/core": "npm:1.112.7"
+  checksum: 10c0/b8dbc7b1634b44674094586f08d882a8bbb0ff597456af96287a842abde3c2d788bddfde54ce66c36ac6a5fe627afec537d996777d6b34fd8ccf930564843a1d
   languageName: node
   linkType: hard
 
@@ -2093,6 +2137,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tamagui/react-native-media-driver@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/react-native-media-driver@npm:1.112.7"
+  dependencies:
+    "@tamagui/web": "npm:1.112.7"
+  peerDependencies:
+    react-native: "*"
+  checksum: 10c0/22eccdd6c4bfd1fcc24cb595611211df08695fcb9bf12ed583bd55bfcfc99589d68733695d2a146793fe49c8685b4bc90781f9a11bce4fe7744256f8ba1be1c9
+  languageName: node
+  linkType: hard
+
 "@tamagui/react-native-svg@npm:1.101.3":
   version: 1.101.3
   resolution: "@tamagui/react-native-svg@npm:1.101.3"
@@ -2250,6 +2305,13 @@ __metadata:
   version: 1.101.3
   resolution: "@tamagui/shorthands@npm:1.101.3"
   checksum: 10c0/ae4a85ec231b05f5a690fbfc2c886b7dfff34821d45e58623cab1efd5729d8d44387264087936403d2ba483580119b1d22a6caf3b3c39c83f488f80bf3b88584
+  languageName: node
+  linkType: hard
+
+"@tamagui/shorthands@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/shorthands@npm:1.112.7"
+  checksum: 10c0/d9d99ab2bc93222125ca3623cc1b4bb18940c5cb8557ebe6bb6cdd721b98cd12626025bfef54a5f527bd4a970591cec88da799cb86b9aa85d9e575717f33a256
   languageName: node
   linkType: hard
 
@@ -2414,6 +2476,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tamagui/theme-builder@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/theme-builder@npm:1.112.7"
+  dependencies:
+    "@tamagui/create-theme": "npm:1.112.7"
+    color2k: "npm:^2.0.2"
+  checksum: 10c0/d777c0d25b91499efd1f75eef074a05ab67f2200494df457830d78c36cac014506f9a40d73f20d0b358e0deeee060576ce23aa84847248472ae66de40dc7a148
+  languageName: node
+  linkType: hard
+
 "@tamagui/theme@npm:1.101.3":
   version: 1.101.3
   resolution: "@tamagui/theme@npm:1.101.3"
@@ -2424,15 +2496,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/themes@npm:1.101.3":
-  version: 1.101.3
-  resolution: "@tamagui/themes@npm:1.101.3"
+"@tamagui/themes@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/themes@npm:1.112.7"
   dependencies:
-    "@tamagui/colors": "npm:1.101.3"
-    "@tamagui/create-theme": "npm:1.101.3"
-    "@tamagui/theme-builder": "npm:1.101.3"
-    "@tamagui/web": "npm:1.101.3"
-  checksum: 10c0/602e387ed78221ad83a1e4bdb092d6e74f749c82d7b81589f5b124960adbca2a0574039fc8a842150322aa0e448f765b4c7a5ae8c73d1776485de2efcdf18e6c
+    "@tamagui/colors": "npm:1.112.7"
+    "@tamagui/create-theme": "npm:1.112.7"
+    "@tamagui/theme-builder": "npm:1.112.7"
+    "@tamagui/web": "npm:1.112.7"
+  checksum: 10c0/e1b8311ecb9502d57f34f310fac745b80365c12bcb5ad0e4fe96eb5bd65f618daba435671479b0c50a8d378ce2149078ff3e3141ee1c53bbb64b39fe479a1d65
   languageName: node
   linkType: hard
 
@@ -2634,6 +2706,17 @@ __metadata:
   dependencies:
     "@tamagui/web": "npm:1.101.3"
   checksum: 10c0/a09b133a8297c2ed9ae726d33493519a9198610e0ff6571657fefa8cbd6e354935947d344fbe5d8762c10a645d220bd1bb9c983ca9933a3422fa0141443f6622
+  languageName: node
+  linkType: hard
+
+"@tamagui/use-presence@npm:1.112.7":
+  version: 1.112.7
+  resolution: "@tamagui/use-presence@npm:1.112.7"
+  dependencies:
+    "@tamagui/web": "npm:1.112.7"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/b467ce4f58a1961553c19a35cf1ecb48ba9fe0d8c5a182ca306afac7d31137ef8cb86703e8f4c15a862ac511b12de6d2ee6c42ab310eced5ca4dc3f514f31224
   languageName: node
   linkType: hard
 
@@ -9082,7 +9165,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "website@workspace:."
   dependencies:
-    "@tamagui/config": "npm:^1.101.3"
+    "@tamagui/config": "npm:^1.112.7"
     "@tamagui/lucide-icons": "npm:^1.112.7"
     "@tamagui/next-plugin": "npm:^1.101.3"
     "@tamagui/next-theme": "npm:^1.111.13"
