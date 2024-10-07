@@ -11,7 +11,7 @@
     "upgrade:tamagui:canary": "yarn up '*tamagui*'@canary '@tamagui/*'@canary"
   },
   "dependencies": {
-    "@tamagui/config": "^1.101.3",
+    "@tamagui/config": "^1.112.22",
     "@tamagui/lucide-icons": "^1.112.7",
     "@tamagui/next-plugin": "^1.101.3",
     "@tamagui/next-theme": "^1.111.13",
