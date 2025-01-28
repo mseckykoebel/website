@@ -1,9 +1,70 @@
 import { Accordion, Image, Paragraph, Square, XStack, YStack } from "tamagui";
 import { ChevronDown } from "@tamagui/lucide-icons";
+import Link from "next/link";
 
 export function WorkAccordion() {
   return (
     <Accordion overflow="hidden" width="100%" type="multiple">
+      {/* wizard perks */}
+      <Accordion.Item value="a1">
+        <Accordion.Trigger flexDirection="row">
+          {({ open }: { open: boolean }) => (
+            <XStack justifyContent="space-between" width="100%">
+              <XStack alignItems="center">
+                <Image
+                  source={{
+                    uri: "https://media.licdn.com/dms/image/v2/D560BAQHRWbi6LZa-xA/company-logo_200_200/company-logo_200_200/0/1737743048180/wizardperks_logo?e=1746057600&v=beta&t=J4mCrgkHeVO01KcvWh_nNQwp8jZc74nxI_ztESOxMVY",
+                    width: 35,
+                    height: 35,
+                  }}
+                  enterStyle={{
+                    scale: 1,
+                    y: -0.1,
+                    opacity: 0,
+                  }}
+                  animation="slow"
+                  borderRadius="$1"
+                  alt="Big leap health company logo"
+                  marginRight="$3"
+                />
+                <YStack>
+                  <Paragraph size="$3">
+                    Wizard Perks - Founding Engineer
+                  </Paragraph>
+                  <Paragraph size="$1">January 2025 - Present</Paragraph>
+                </YStack>
+              </XStack>
+              <Square animation="quick" rotate={open ? "180deg" : "0deg"}>
+                <ChevronDown size="$1" />
+              </Square>
+            </XStack>
+          )}
+        </Accordion.Trigger>
+        <Accordion.HeightAnimator animation="medium">
+          <Accordion.Content animation="medium" exitStyle={{ opacity: 0 }}>
+            <YStack gap="$2">
+              <Paragraph size="$4">
+                I'm currently the founding engineer at Wizard Perks.
+              </Paragraph>
+              <Paragraph size="$4">
+                Modern perks companies are still largely based on newsletters.
+                We're building a modern alternative, with exclusive perks at
+                national merchants. We're backed by{" "}
+                <Link href="https://www.villageglobal.vc/" target="_blank">
+                  {" "}
+                  Village Global
+                </Link>
+                .
+              </Paragraph>
+              <Paragraph size="$4">
+                If you're interested in working with us, feel free to{" "}
+                <Link href="mailto:mason@wizardperks.com">reach out</Link>.
+              </Paragraph>
+            </YStack>
+          </Accordion.Content>
+        </Accordion.HeightAnimator>
+      </Accordion.Item>
+
       {/* blh */}
       <Accordion.Item value="a1">
         <Accordion.Trigger flexDirection="row">
@@ -12,7 +73,7 @@ export function WorkAccordion() {
               <XStack alignItems="center">
                 <Image
                   source={{
-                    uri: "https://media.licdn.com/dms/image/v2/D4E0BAQHajke2ewcGMg/company-logo_200_200/company-logo_200_200/0/1708554930315/big_leap_health_logo?e=1735171200&v=beta&t=ok8AHyfLYd5J3U3U0NA7iYBg7VHfLFBWf4v5EpOl4As",
+                    uri: "https://media.licdn.com/dms/image/v2/D4E0BAQGNyDpyEWyf-Q/company-logo_200_200/company-logo_200_200/0/1729549517324/big_leap_health_logo?e=1746057600&v=beta&t=d1NG2TzCL2dsFTJzaVEKwFxoZf3CVmf6kMOrcQXeQig",
                     width: 35,
                     height: 35,
                   }}
@@ -251,7 +312,7 @@ export function WorkAccordion() {
               <XStack alignItems="center">
                 <Image
                   source={{
-                    uri: "https://media.licdn.com/dms/image/v2/C560BAQFEHwm09uVV0w/company-logo_200_200/company-logo_200_200/0/1633100886398/brinc_drones_logo?e=1735171200&v=beta&t=V4HyhYJbV2nKTMaoMFszjsaZPADsrHB1mwpPJMRLbS4",
+                    uri: "https://media.licdn.com/dms/image/v2/C560BAQFEHwm09uVV0w/company-logo_200_200/company-logo_200_200/0/1633100886398/brinc_drones_logo?e=1746057600&v=beta&t=8VRbMGMQkSicIbArcxN1NUh_NOZq8sg34LIlTv13nIg",
                     width: 35,
                     height: 35,
                   }}
