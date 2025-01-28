@@ -58,8 +58,12 @@ function Description() {
         , where we built a platform for Long COVID care.
       </Paragraph>
       <Paragraph marginTop={10} size="$4" col="$color11" ta="start">
-        I am currently based in Chicago. I write infrequently about technology
-        and startups, and am always down to chat about either :).
+        I am currently the founding engineer at{" "}
+        <Link href="https://www.wizardperks.com" target="_blank">
+          Wizard Perks
+        </Link>
+        , where we're building a modern perks platform (in Chicago 🐻). I write
+        infrequently about technology and startups.
       </Paragraph>
     </Fragment>
   );
