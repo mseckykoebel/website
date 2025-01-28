@@ -6,7 +6,7 @@ export function WorkAccordion() {
   return (
     <Accordion overflow="hidden" width="100%" type="multiple">
       {/* wizard perks */}
-      <Accordion.Item value="a1">
+      <Accordion.Item value="a0">
         <Accordion.Trigger flexDirection="row">
           {({ open }: { open: boolean }) => (
             <XStack justifyContent="space-between" width="100%">
