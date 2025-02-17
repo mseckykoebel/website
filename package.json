@@ -25,7 +25,7 @@
     "react-native-svg": "^15.3.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
-    "tamagui": "^1.101.3"
+    "tamagui": "^1.125.2"
   },
   "devDependencies": {
     "@types/node": "^22",
