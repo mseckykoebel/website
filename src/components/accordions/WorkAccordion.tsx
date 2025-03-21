@@ -104,10 +104,6 @@ export function WorkAccordion() {
           <Accordion.Content animation="medium" exitStyle={{ opacity: 0 }}>
             <YStack gap="$2">
               <Paragraph size="$4">
-                I currently work at Big Leap Health as the first software
-                engineer.
-              </Paragraph>
-              <Paragraph size="$4">
                 <Paragraph size="$4">
                   <a
                     href="https://www.linkedin.com/in/yakovkagan/"
